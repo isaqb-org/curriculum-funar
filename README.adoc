@@ -54,7 +54,8 @@ If you don't modify the configuration, this build will create pdf and html outpu
 
 == Maintainers
 
-This repository is currently maintained by https://github.com/aheusingfeld[Alexander Heusingfeld] and https://github.com/ewolff[Eberhard Wolff].
+This repository is currently maintained by
+https://github.com/mikesperber[Mike Sperber].
 It was forked from https://github.com/isaqb-org/advanced-template,
 so the contributors of that project basically contributed to this one, too.
 
