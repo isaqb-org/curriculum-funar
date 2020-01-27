@@ -21,7 +21,7 @@ ext {
   germanDate = new SimpleDateFormat("d. MMMM yyy", Locale.GERMANY).format(today)
 
   project.version = project.file("./document.version").text
-  curriculumBaseName = "advanced-curriculum"
+  curriculumBaseName = "funar-curriculum"
   curriculumFileName = "advanced-curriculum"
   addSuffixToCurriculum = { suffix ->
     for (extension in ["html", "pdf"]) {
@@ -68,7 +68,7 @@ class RenderCurriculumTask extends AsciidoctorTask {
 task buildDocs {
   group 'Documentation'
   description 'Grouping task for generating all languages in several formats'
-  dependsOn "includeLearningObjectives", "renderNoRemarksDE", "renderNoRemarksEN", "renderWithRemarksDE", "renderWithRemarksEN"
+  dependsOn "includeLearningObjectives", "renderNoRemarksDE", "renderWithRemarksDE"
 }
 
 task renderNoRemarksDE(type: RenderCurriculumTask,
