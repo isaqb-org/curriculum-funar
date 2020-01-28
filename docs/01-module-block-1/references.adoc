@@ -5,8 +5,12 @@ include::../config/_feedback.adoc[]
 
 // tag::DE[]
 === {references}
-- Quelle Nr. 1
-- Quelle Nr. 2
+- Graham Hutton: Programming in Haskell. Cambridge University Press, 2.
+Auflage, 2016.
+- Herbert Klaeren, Michael Sperber: Schreibe Dein Programm!
+http://www.deinprogramm.de/
+- Simon Brown: Software Architecture for Developers: Volume 1 -
+Technical Leadership and the Balance with Agility. Leanpub, 2018.
 // end::DE[]
 
 // tag::EN[]

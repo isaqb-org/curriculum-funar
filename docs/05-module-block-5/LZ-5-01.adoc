@@ -8,21 +8,21 @@ include::../config/_feedback.adoc[]
 ==== LZ 5-1: Dies ist das erste Lernziel in Kapitel 5, lorem ipsum sit dolor
 
 - Was sollen die Teilnehmer können?
-   * Fähigkeit 1
-   * Fähigkeit 2
-   * Fähigkeit 3
-   * etc.
+   * die Möglichkeiten funktionaler Datenstrukturen für die
+   Software-Architektur ausnutzen
+   * algebraische Eigenschaften in Domänenobjekten erkennen
+   * algebraische Eigenschaften im Code reflektieren
+   * UI-Architektur mit Model-View-Update entwerfen
+
 - Was sollen die Teilnehmer verstehen?
-  * Aussage 1
-  * Behauptung 2
-  * Erfahrung 3
-  * Zusammenhang 4
-  * etc.
+   * Trade-Offs der Verwendung funktionaler Datenstrukturen
+   * Eigenschaften algebraischer Abstraktionen
+   * Unterschied zwischen Model-View-Update und Model-View-Controller
+
 - Was sollen die Teilnehmer kennen?
-  * Zusammenhang Nr. 1
-  * Norm Nr. 2
-  * Buch Nr. 3
-  * etc.
+   * Beispiele für funktionale Datenstrukturen (hash tries, finger trees,
+   red-black trees)
+   * Eigenschaften algebraischer Abstraktionen
 
 // end::DE[]
 

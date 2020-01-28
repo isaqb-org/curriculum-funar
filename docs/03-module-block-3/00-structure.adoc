@@ -4,7 +4,7 @@
 
 
 // tag::DE[]
-== Lerneinheit 3
+== Umsetzung von funktionalen Anforderungen
 // end::DE[]
 
 // tag::EN[]
@@ -17,7 +17,6 @@ include::01-duration-terms.adoc[{include_configuration}]
 === {learning-goals}
 
 include::LZ-3-01.adoc[{include_configuration}]
-include::LZ-3-02.adoc[{include_configuration}]
 
 // references (if any!)
 include::references.adoc[{include_configuration}]

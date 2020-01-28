@@ -5,24 +5,25 @@ include::../config/_feedback.adoc[]
 
 // tag::DE[]
 [[LZ-4-1]]
-==== LZ 4-1: Dies ist das erste Lernziel in Kapitel 4, das mit xyz
 
 - Was sollen die Teilnehmer können?
-   * Fähigkeit 1
-   * Fähigkeit 2
-   * Fähigkeit 3
-   * etc.
+   * für spezifisches Projekt die Datenhaltung mit Event Sourcing entwerfen
+   * ein Query-Modell passend zu einem Event-Sourcing-Modell und einer
+   Oberflächen-Anforderung entwerfen
+   * Techniken für effektive Parallelisierung auswählen
+   * Techniken für effektive Verteilung auswählen
+
 - Was sollen die Teilnehmer verstehen?
-  * Aussage 1
-  * Behauptung 2
-  * Erfahrung 3
-  * Zusammenhang 4
-  * etc.
+   * den Unterschied zwischen „Data Warehousing“ und
+   Event-Sourcing-Ansätzen
+   * die Rolle von Query-Modellen
+   * die Rolle funktionaler Datenstrukturen bei der Parallelisierung
+   * die Rolle funktionaler Datenhaltung bei der Verteilung
+
 - Was sollen die Teilnehmer kennen?
-  * Zusammenhang Nr. 1
-  * Norm Nr. 2
-  * Buch Nr. 3
-  * etc.
+   * Datenparallelität
+   * Futures
+   * Message Passing
 
 // end::DE[]
 

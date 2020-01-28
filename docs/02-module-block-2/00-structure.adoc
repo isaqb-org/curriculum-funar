@@ -4,11 +4,11 @@
 
 
 // tag::DE[]
-== Lerneinheit 2
+== 
 // end::DE[]
 
 // tag::EN[]
-== Lesson 2
+== Technologien
 // end::EN[]
 
 include::01-duration-terms.adoc[{include_configuration}]
@@ -17,7 +17,6 @@ include::01-duration-terms.adoc[{include_configuration}]
 === {learning-goals}
 
 include::LZ-2-01.adoc[{include_configuration}]
-include::LZ-2-02.adoc[{include_configuration}]
 
 // references (if any!)
 include::references.adoc[{include_configuration}]

@@ -3,7 +3,7 @@
 // ====================================================
 
 // tag::DE[]
-== Lerneinheit 1
+== Systemstruktur
 // end::DE[]
 
 // tag::EN[]

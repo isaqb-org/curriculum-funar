@@ -5,13 +5,13 @@ include::../config/_feedback.adoc[]
 
 // tag::DE[]
 |===
-| Dauer: XXX Min. | Übungszeit: XXX Min.
+| Dauer: 60 Min. | Übungszeit: keine
 |===
 
 Dieser Abschnitt ist nicht prüfungsrelevant.
 
 === Begriffe und Konzepte
-Innerhalb jeder lizenzierten Schulung muss mindestens ein Beispiel für {curriculum-short} vorgestellt werden.
+Innerhalb jeder lizenzierten Schulung muss mindestens ein Beispiel für {curriculum-name} vorgestellt werden.
 
 Art und Ausprägung der vorgestellten Beispiele können von der Schulung bzw. den Interessen der Teilnehmer abhängen und werden seitens iSAQB nicht vorgegeben.
 // end::DE[]

@@ -19,19 +19,49 @@ This section contains references that are cited in the curriculum.
 // end::EN[]
 
 B +
-[[[Bachmann 2000]]] Bachmann, F., L. Bass, et al.: Software Architecture Documentation in Practice. Software Engineering Institute, CMU/SEI-2000-SR-004.
+[[[Betts+ 2013]]]  Betts et al.: Exploring CQRS and Event Sourcing. Microsoft, 2013.
 
-[[[Bass+2003]]] Bass, L., Clements, P. und Kazman, R. (2003): Software Architecture in Practice. Addison-Wesley, Reading, Mass
+[[[Brown 2018]]]  Simon Brown: Software Architecture for Developers: Volume 1 -
+Technical leadership and the balance with agility. Leanpub, 2018.
 
 C +
-[[[Clements+2003]]] Clements, P., F. Bachmann, L. Bass, D. Garlan, J. Ivers et al: Documenting Software Architectures – Views and Beyond. Addison Wesley, 2003.
+[[[Cesarini+ 2016]]]   Francesco Cesarini, Steve Vinoski: Designing for Scalability with
+Erlang/OTP: Implement Robust, Fault-Tolerant Systems. O’Reilly, 2016.
+
+[[[Chiusano+ 2014]]] Paul Chiusano, Runar Bjarnason: Functional Programming in Scala.
+September, 2014.
+
+F +
+[[[Field+ 1988]]] Field, Harrison: Functional Programming. Addison-Wesley, 1988.
+
+G +
+[[[Gibbons+ 2003]]] Jeremy Gibbons, Oege de Moor (Herausgeber): The Fun of Programming.
+Oxford University Press, 2003.
 
 H +
-[[[Hargis+2004]]] Hargis, Gretchen et. al: Quality Technical Information: A Handbook for Writers and Editors. Prentice Hall, IBM Press, 2004.
+[[[Hutton 2016]]] Graham Hutton: Programming in Haskell. Cambridge University Press, 2.
+Auflage, 2016.
 
 K +
-[[[Kruchten 1995]]] Kruchten, P.: Architectural Blueprints – The 4-1 View Model of Architecture. IEEE Software November 1995; 12(6), p. 42-50.
+[[[Sperber+ 2020]]] Michael Sperber, Herbert Klaeren: Schreibe Dein Programm!
+http://www.deinprogramm.de/
 
-S +
-[[[Starke 2011]]] Starke, G. (2011): Effektive Software-Architekturen - Ein praktischer Leitfaden. 5. Auflage 2011, Carl Hanser Verlag, München.
+M +
+[[[Marlow 2013]]] Simon Marlow: Parallel and Concurrent Programming in Haskell:
+Techniques for Multicore and Multithreaded Programming. O’Reilly, 2013.
+
+O +
+[[[Okasaki 1999]]] Chris Okasaki: Purely functional data structures. Cambridge University
+Press, 1999.
+
+O +
+[[[Repply 2008]]] John H. Reppy: Concurrent Programming in ML. Cambridge University
+University Press, 2008.
+
+W +
+[[[Wikipedia 2020]]] Comparison of functional programming languages.
+https://en.wikipedia.org/wiki/Comparison_of_functional_programming_languages[Wikipedia]
+
+[[[Wlaschin 2018]]] Scott Wlaschin: Domain Modeling Made Functional. The Pragmatic
+Bookshelf, 2018.
 

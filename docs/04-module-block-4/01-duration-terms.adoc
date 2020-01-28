@@ -5,13 +5,18 @@ include::../config/_feedback.adoc[]
 
 // tag::DE[]
 |===
-| Dauer: XXX Min. | Übungszeit: XXX Min.
+| Dauer: 180 Min. | Übungszeit: 60 Min.
 |===
 
+Dieser Abschnitt behandelt spezifische funktionale Techniken zur
+Umsetzung nicht-funktionaler Anforderungen wie Datenhaltung, Verteilung
+und Performance.
+
 === Begriffe und Konzepte
-* Begriff 1
-* Begriff 2
-* Begriff 3
+* CQRS
+* Event Sourcing
+* Parallelisierung
+* Verteilung
 
 // end::DE[]
 

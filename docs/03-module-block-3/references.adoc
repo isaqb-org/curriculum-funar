@@ -5,8 +5,10 @@ include::../config/_feedback.adoc[]
 
 // tag::DE[]
 === {references}
-- Quelle Nr. 1
-- Quelle Nr. 2
+* Jeremy Gibbons, Oege de Moor (Herausgeber): The Fun of Programming.
+Oxford University Press, 2003.
+* Scott Wlaschin: Domain Modeling Made Functional. The Pragmatic
+Bookshelf, 2018.
 // end::DE[]
 
 // tag::EN[]

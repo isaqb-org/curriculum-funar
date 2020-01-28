@@ -5,13 +5,21 @@ include::../config/_feedback.adoc[]
 
 // tag::DE[]
 |===
-| Dauer: XXX Min. | Übungszeit: XXX Min.
+| Dauer: 180 Min. | Übungszeit: 60 Min.
 |===
 
+Dieser Abschnitt behandelt inhärent funktionale Ansätze, um funktionale
+Anforderungen in Software-Architektur umzusetzen. Domain-driven Design
+kann mit funktionaler Programmierung statt objektorientierter
+Programmierung umgesetzt werden. Kombinatormodelle decken verstecktes
+Domänenwissen auf. Eingebettete domänenspezifische Sprachen ermöglichen
+einen schnellen Abgleich von Anforderungen und Architektur.
+
 === Begriffe und Konzepte
-* Begriff 1
-* Begriff 2
-* Begriff 3
+* funktionale Anforderungen
+* DDD
+* Kombinatormodelle
+* eingebettete domänenspezifische Sprachen
 
 // end::DE[]
 

@@ -5,19 +5,30 @@ include::../config/_feedback.adoc[]
 
 // tag::DE[]
 |===
-| Dauer: XXX Min. | Übungszeit: XXX Min.
+| Dauer: 180 Min. | Übungszeit: 60 Min.
 |===
 
+Diese Lerneinheit führt in die grundlegenden Elemente der Struktur
+funktionaler Software-Systeme ein: Reine Funktionen operieren auf
+unveränderlichen Werten. Dies steht im Gegensatz zum objektorientierten
+Modell, in dem Methoden auf gekapseltem Zustand operieren. Diese
+Funktionen werden zu domänenrelevanter Funktionalität miteinander
+kombiniert beziehungsweise _komponiert._ Der Entwurf von Funktionen und
+ihre Komposition wird von ihren Typsignaturen getrieben. Anders als in
+der objektorientierten Architektur sind Funktionen nicht an Klassen
+gebunden, sondern werden in Modulen gebündelt.
+
 === Begriffe und Konzepte
-* Begriff 1
-* Begriff 2
-* Begriff 3
+* Funktionen und Werte
+* Komposition
+* Typen
+* Module
 
 // end::DE[]
 
 // tag::EN[]
 |===
-| Lesson duration: XXX min | Exercises: XXX min
+| Lesson duration: 180 min | Exercises: 60 min
 |===
 
 === Terms and concepts

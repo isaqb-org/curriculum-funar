@@ -5,24 +5,20 @@ include::../config/_feedback.adoc[]
 
 // tag::DE[]
 [[LZ-1-1]]
-==== LZ 1-1: Dies ist das erste Lernziel, in Kategorie xy
+
 - Was sollen die Teilnehmer können?
-   * Fähigkeit 1
-   * Fähigkeit 2
-   * Fähigkeit 3
-   * etc.
+   * Informationen als unveränderliche Werte repräsentieren
+   * zentrale Funktionalität als Funktionen formulieren
+   * für diese Funktionen Typen konstruieren
 
 - Was sollen die Teilnehmer verstehen?
-  * Aussage 1
-  * Behauptung 2
-  * Erfahrung 3
-  * Zusammenhang 4
-  * etc.
+  * den Unterschied zwischen dem objektorientierten und dem funktionalen
+Software-Modell
+  * die Rolle von Typen beim funktionalen Software-Design
+  * Module als Alternative zu Klassen
+
 - Was sollen die Teilnehmer kennen?
-  * Zusammenhang Nr. 1
-  * Norm Nr. 2
-  * Buch Nr. 3
-  * etc.
+  * Beispiele für funktionale System-Architekturen
 
 // end::DE[]
 

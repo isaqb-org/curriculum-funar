@@ -5,24 +5,21 @@ include::../config/_feedback.adoc[]
 
 // tag::DE[]
 [[LZ-2-1]]
-==== LZ 2-1: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 - Was sollen die Teilnehmer können?
-   * Fähigkeit 1
-   * Fähigkeit 2
-   * Fähigkeit 3
-   * etc.
+   * eine geeignete Programmiersprache für ein Projekt auswählen
+   * geeignete Frameworks und Bibliotheken auswählen
+
 - Was sollen die Teilnehmer verstehen?
-  * Aussage 1
-  * Behauptung 2
-  * Erfahrung 3
-  * Zusammenhang 4
-  * etc.
+   * die Auswirkung der Verwendung strikter bzw. nicht-strikter Auswertung
+      auf die Software-Architektur
+   * die Auswirkung der Verwendung statischer bzw. dynamischer Typen
+   * die Bedeutung von Endrekursion als Unterscheidungsmerkmal
 - Was sollen die Teilnehmer kennen?
-  * Zusammenhang Nr. 1
-  * Norm Nr. 2
-  * Buch Nr. 3
-  * etc.
+   * wichtige funktionale Sprachen und ihre Haupteigenschaften
+   * exemplarische Frameworks und Libraries
+   * die Zuordnung von Programmiersprachen bzw. deren Eigenschaften zu
+     verschiedenen Laufzeitumgebungen
 
 // end::DE[]
 

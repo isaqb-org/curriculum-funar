@@ -5,23 +5,18 @@ include::../config/_feedback.adoc[]
 
 // tag::DE[]
 [[LZ-98-1]]
-==== LZ 98-1: Dies ist das letzte Lernziel des Lehrplans
+
 - Was sollen die Teilnehmer können?
-   * Fähigkeit 1
-   * Fähigkeit 2
-   * Fähigkeit 3
-   * etc.
+   * Potential für Parallelisierung und/oder Verteilung erkennen
+   * mögliche algebraische Abstraktionen identifizieren
+
 - Was sollen die Teilnehmer verstehen?
-  * Aussage 1
-  * Behauptung 2
-  * Erfahrung 3
-  * Zusammenhang 4
-  * etc.
+   * die Auswirkung der Verwendung unveränderlicher Daten und reiner
+Funktionen
+
 - Was sollen die Teilnehmer kennen?
-  * Zusammenhang Nr. 1
-  * Norm Nr. 2
-  * Buch Nr. 3
-  * etc.
+   * die Vorteile gegenüber einer traditionell objektorientierten
+Architektur
 
 // end::DE[]
 
