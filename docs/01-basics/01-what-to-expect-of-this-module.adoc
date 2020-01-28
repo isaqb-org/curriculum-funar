@@ -5,28 +5,39 @@ include::../config/_feedback.adoc[]
 
 
 // tag::DE[]
-Das Modul präsentiert den Teilnehmern funktionale Softwarearchitektur
-als Alternative zu objektorientierter Architektur. Im Vergleich zu
-OO-Architektur setzt die funktionale Softwarearchitektur auf
-unveränderliche Daten, algebraische Abstraktionen und eingebettete
-domänenspezifische Sprachen. Das Resultat sind flexible und robuste
-Architekturen, die gegenüber OO weniger komplex sind und weniger
-versteckte Abhängigkeiten mit sich bringen.
+Das Modul präsentiert den Teilnehmerinnen funktionale
+Software-Architektur als Alternative zu objektorientierter Architektur.
+Im Vergleich zu OO-Architektur setzt die funktionale
+Software-Architektur auf unveränderliche Daten, algebraische
+Abstraktionen und eingebettete domänenspezifische Sprachen. Das Resultat
+sind flexible und robuste Architekturen, die gegenüber OO weniger
+komplex sind und weniger versteckte Abhängigkeiten mit sich
+bringen.footnote:[Die Vergleiche zu objektorientierter
+Software-Architektur tragen dem Umstand Rechnung, dass die Autoren davon
+ausgehen, die meisten potenziellen Teilnehmer an einer Advanced-Schulung
+mit objektorientierter Software-Architektur vertraut sind. Für die
+Schulung essenziell ist dieser Vergleich allerdings nicht und kann
+zugunsten einer Vertiefung der (eh reichlichen) Inhalte auch entfallen.]
 
 Anders als bei OO-Architekturen sind FP-Architekturen direkt Code. In
 diesem Modul können deshalb alle Architekturprinzipien durch konkreten
-Code illustriert werden und sind damit anschaulich erlernbar.
+Code illustriert werden und sind damit anschaulich
+erlernbar.footnote:[Eine Reihe von Sprachen kommt für die Begleitung
+einer solchen Schulung in Betracht. Besonders geeignet können Haskell
+und Racket sein, die alle Architekturprinzipien dieses Lehrplans direkt
+unterstützen. Racket mag sich besonders gut für Schulungen eignen, denen
+eine Einführung in die funktionale Programmierung mit den dort
+eingebauten Lehrsprachen vorangeht.]
 
-Nach Abschluss des Moduls kennen die Teilnehmer die wesentlichen
+Nach Abschluss des Moduls kennen die Teilnehmerinnen die wesentlichen
 Prinzipien funktionaler Architektur und können diese beim Entwurf von
 Software-Systemen anwenden. Sie kennen die Eigenheiten funktionaler
 Programmiersprachen und können diese bei der Implementierung von
-Software-Systemen effektiv ausnutzen. Sie können Domänenwissen direkt
-in ausführbaren Code umwandeln und daraus systematisch algebraische
+Software-Systemen effektiv ausnutzen. Sie können Domänenwissen direkt in
+ausführbaren Code umwandeln und daraus systematisch algebraische
 Abstraktionen entwickeln.
 // end::DE[]
 
 // tag::EN[]
-TBD
 // end::EN[]
 
