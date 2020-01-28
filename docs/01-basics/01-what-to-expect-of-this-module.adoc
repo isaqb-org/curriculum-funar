@@ -5,23 +5,28 @@ include::../config/_feedback.adoc[]
 
 
 // tag::DE[]
-=== Was vermittelt das Modul „{curriculum-short}“?
+Das Modul präsentiert den Teilnehmern funktionale Softwarearchitektur
+als Alternative zu objektorientierter Architektur. Im Vergleich zu
+OO-Architektur setzt die funktionale Softwarearchitektur auf
+unveränderliche Daten, algebraische Abstraktionen und eingebettete
+domänenspezifische Sprachen. Das Resultat sind flexible und robuste
+Architekturen, die gegenüber OO weniger komplex sind und weniger
+versteckte Abhängigkeiten mit sich bringen.
 
-Das Modul präsentiert den Teilnehmerinnen und Teilnehmern {curriculum-name} als …
-Am Ende des Moduls kennen die Teilnehmerinnen und Teilnehmer … und können …
+Anders als bei OO-Architekturen sind FP-Architekturen direkt Code. In
+diesem Modul können deshalb alle Architekturprinzipien durch konkreten
+Code illustriert werden und sind damit anschaulich erlernbar.
+
+Nach Abschluss des Moduls kennen die Teilnehmer die wesentlichen
+Prinzipien funktionaler Architektur und können diese beim Entwurf von
+Software-Systemen anwenden. Sie kennen die Eigenheiten funktionaler
+Programmiersprachen und können diese bei der Implementierung von
+Software-Systemen effektiv ausnutzen. Sie können Domänenwissen direkt
+in ausführbaren Code umwandeln und daraus systematisch algebraische
+Abstraktionen entwickeln.
 // end::DE[]
 
 // tag::EN[]
-=== What does the module “{curriculum-short}” convey?
-
-The module presents {curriculum-short} to the participants …
-At the end of the module, the participants know … and are able to …
+TBD
 // end::EN[]
 
-// tag::REMARK[]
-[NOTE]
-====
-Hier bitte das Modul bzw. dessen Lerninhalte zusammenfassend in 5-8 Sätzen beschreiben. Dabei `{curriculum-name}`
-nicht entfernen, beim Zusammenbauen wird dieser Platzhalter mit dem Modulnamen ersetzt.
-====
-// end::REMARK[]

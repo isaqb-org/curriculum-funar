@@ -1,6 +1,7 @@
 import org.asciidoctor.gradle.AsciidoctorTask
 import javax.inject.Inject
-import java.text.SimpleDateFormat
+import java.time.LocalDate
+import java.time.format.DateTimeFormatter
 
 buildscript {
   repositories {
@@ -16,9 +17,9 @@ plugins {
 }
 
 ext {
-  today = new Date()
-  englishDate = new SimpleDateFormat("MMMM d, yyyy", Locale.US).format(today)
-  germanDate = new SimpleDateFormat("d. MMMM yyy", Locale.GERMANY).format(today)
+  date = LocalDate.of(2018, 9, 1)
+  englishDate = date.format(DateTimeFormatter.ofPattern("MMMM d, yyyy"))
+  germanDate = date.format(DateTimeFormatter.ofPattern("d. MMMM yyyy"))
 
   project.version = project.file("./document.version").text
   curriculumBaseName = "funar-curriculum"

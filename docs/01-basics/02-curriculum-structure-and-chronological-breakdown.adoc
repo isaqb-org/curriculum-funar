@@ -4,7 +4,12 @@ include::../config/_feedback.adoc[]
 // end::FEEDBACK[]
 
 // tag::DE[]
-=== Struktur des Lehrplans und empfohlene zeitliche Aufteilung
+=== Gliederung des Lehrplans für Funktionale Softwarearchitektur und empfohlene zeitliche Aufteilung
+
+Die Gliederung des Lehrplans richtet sich nach der Gliederung der
+Aufgaben von Software-Architektur in Simon Brown: Software Architecture
+for Developers: Volume 1 - Technical Leadership and the Balance with
+Agility. Leanpub, 2018.
 
 [cols="<,>", options="header"]
 |===
@@ -13,29 +18,29 @@ include::../config/_feedback.adoc[]
 | Empfohlene Mindestdauer (min)
 
 
-| 1. Thema mit Einleitung
+| 1. Systemstruktur
 | 180
 
-| 2. Thema über xz
-| 150
-
-| 3. Thema mit viel Theorie
+| 2. Technologien
 | 120
 
-| 4. Thema mit xy und Beispiel
-| 180
+| 3. Umsetzung von funktionalen Anforderungen
+| 240
 
-| 5. Thema mit abc und d
-| 210
+| 4. Umsetzung von nicht-funktionalen Anforderungen
+| 240
 
-| 6. Thema mit Abschlussbeispiel
-| 120
+| 5. Architekturmuster
+| 240
+
+| 6. Beispiel
+| 60
 
 |
 |
 
 | Summe
-| 960 (16h)
+| 1080 (18h)
 
 |===
 

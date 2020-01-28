@@ -8,17 +8,12 @@ include::../config/_feedback.adoc[]
 
 Teilnehmerinnen und Teilnehmer **sollten** folgende Kenntnisse und/oder Erfahrung mitbringen:
 
-- Voraussetzung 1
-- Voraussetzung 2, etc.
+* Grundkenntnisse in funktionaler Programmierung
+* Erfahrung bei der Modellierung von Architekturen
 
 **Hilfreich** für das Verständnis einiger Konzepte sind darüber hinaus:
 
-- Kenntnisgruppe 1:
-  * Kenntnis 1
-  * Erfahrung 2
-  * Kenntnis 3
-  * Erfahrung 4
-  * Wissen 5
+* Grundkenntnisse Algebra
 // end::DE[]
 
 // tag::EN[]
