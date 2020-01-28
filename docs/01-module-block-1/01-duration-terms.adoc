@@ -31,10 +31,20 @@ gebunden, sondern werden in Modulen gebündelt.
 | Lesson duration: 180 min | Exercises: 60 min
 |===
 
+This section introduces the basic elements of the structure of
+functional software systems: Pure functions operate on immutable values.
+This is in contrast to the object-oriented model, where methods operate
+on an encapsulated state. These functions are combined or _composed_
+into domain-relevant functionality. The design of functions and their
+composition is driven by their type signatures. In functional
+architecture, functions are bundled in modules, as opposed to
+object-oriented programming where they are bundled with classes.
+
 === Terms and concepts
-* Term 1
-* Term 2
-* Term 3
+* Functions and values
+* Composition
+* Types
+* Modules
 // end::EN[]
 
 

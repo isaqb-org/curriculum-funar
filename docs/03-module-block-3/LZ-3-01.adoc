@@ -24,8 +24,21 @@ include::../config/_feedback.adoc[]
 
 // tag::EN[]
 [[LG-3-1]]
-==== LG 3-1: TBD
-tbd.
+- What should the participants be able to do?
+   * Implement DDD with the aid of functional building blocks
+   * Formulate rudimentary combinator models
+   * Design small domain-specific languages
+
+- What should the participants understand?
+   * The implementation of DDD entities with functional programming
+   * The specific properties of combinator models
+   * The role of domain-specific languages in development
+
+- What should the participants know?
+   * Examples of combinator models
+   * The specific advantages of combinator models
+   * Examples of embedded domain-specific languages
+
 // end::EN[]
 
 // tag::REMARK[]

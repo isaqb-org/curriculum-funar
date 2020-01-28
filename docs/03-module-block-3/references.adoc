@@ -13,8 +13,10 @@ Bookshelf, 2018.
 
 // tag::EN[]
 === {references}
-- Reference 1
-- Reference 2
+* Gibbons, Oege de Moor (Herausgeber): The Fun of Programming.
+Oxford University Press, 2003.
+* Scott Wlaschin: Domain Modeling Made Functional. The Pragmatic
+Bookshelf, 2018.
 // end::EN[]
 
 

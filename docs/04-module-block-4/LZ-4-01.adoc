@@ -29,8 +29,24 @@ include::../config/_feedback.adoc[]
 
 // tag::EN[]
 [[LG-4-1]]
-==== LG 4-1: TBD
-tbd.
+- What should the participants be able to do?
+   * Design the data management for a specific project with event sourcing
+   * Design a query model to match an event sourcing model and user
+   interface requirement
+   * Select techniques for effective parallelization
+   * Select techniques for effective distribution
+
+- What should the participants understand?
+   * The difference between "data warehousing" and event sourcing
+   approaches
+   * The role of query models
+   * The role of functional data structures in parallelization
+   * The role of functional data management in distribution
+
+- What should the participants know?
+   * Data parallelism
+   * Futures
+   * Message passing
 // end::EN[]
 
 // tag::REMARK[]

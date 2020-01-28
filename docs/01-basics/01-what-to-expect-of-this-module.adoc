@@ -39,5 +39,33 @@ Abstraktionen entwickeln.
 // end::DE[]
 
 // tag::EN[]
+The module presents functional software architecture as an alternative
+to object-oriented architecture. Compared to OO architecture, functional
+software architecture relies on immutable data, algebraic abstractions
+and embedded domain-specific languages. The result are flexible and
+robust architectures that are less complex and have fewer hidden
+dependencies than OO.footnote:[The comparisons to object-oriented
+software architecture take into account the fact that the authors assume
+that most potential participants in an advanced training course are
+familiar with object-oriented software architecture. However, this
+comparison is not essential for the training course and can be omitted
+in favor of a more in-depth study of the (already abundant) contents.]
+
+Unlike OO architectures, FP architectures are entirely code. This module
+therefore illustrates all architectural principles with concrete code,
+making them easier to learn.footnote:[A number of languages can be used
+to accompany such a training course. Haskell and Racket can be
+particularly suitable, as they directly support all the architectural
+principles of this curriculum. Racket may be particularly suitable for
+training courses that follow an introduction to functional programming
+with the built-in teaching languages.]
+
+After completion of the module, participants will know the essential
+principles of functional architecture and will be able to apply them
+when designing software systems. They will know the peculiarities of
+functional programming languages and can use them effectively when
+implementing software systems. They can convert domain knowledge
+directly into executable code and systematically use this to develop
+algebraic abstractions.
 // end::EN[]
 

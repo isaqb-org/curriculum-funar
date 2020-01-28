@@ -24,8 +24,21 @@ Software-Modell
 
 // tag::EN[]
 [[LG-1-1]]
-==== LG 1-1: The is the first learning goal, in category xy
-tbd.
+- What should the participants be able to do?
+   * Represent information as immutable values
+   * Formulate central functionality as functions
+   * Construct types for these functions
+
+-  What should the participants understand?
+   * The difference between the object-oriented and the functional software
+   model
+   * The role of types in functional software design
+   * Modules as an alternative to classes
+
+- What should the participants know?
+   * Examples of functional system architectures
+
+
 // end::EN[]
 
 // tag::REMARK[]

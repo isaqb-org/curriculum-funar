@@ -23,7 +23,15 @@ Architektur
 
 // tag::EN[]
 [[LG-98-1]]
-==== LG 98-1: Last learning goal of the curriculum
+- What should the participants be able to do?
+   * Identify potential for parallelization and/or distribution
+   * Identify possible algebraic abstractions
+
+- What should the participants understand?
+   * The effect of using immutable data and pure functions
+
+- What should the participants know?
+   * The advantages over traditional object-oriented architecture
 // end::EN[]
 
 

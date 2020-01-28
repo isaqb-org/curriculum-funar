@@ -25,13 +25,21 @@ einen schnellen Abgleich von Anforderungen und Architektur.
 
 // tag::EN[]
 |===
-| Lesson duration: XXX min | Exercises: XXX min
+| Lesson duration: 180 min | Exercises: 60 min
 |===
 
+This section discusses inherently functional approaches to translating
+functional requirements into software architecture. Domain-driven design
+can be implemented with functional programming instead of
+object-oriented programming. Combinator models reveal hidden domain
+knowledge. Embedded domain-specific languages allow fast alignment of
+requirements and architecture.
+
 === Terms and concepts
-* Term 1
-* Term 2
-* Term 3
+* functional requirements
+* DDD
+* combinator models
+* embedded domain-specific languages.
 // end::EN[]
 
 // tag::REMARK[]

@@ -16,8 +16,13 @@ Erlang/OTP: Implement Robust, Fault-Tolerant Systems. O’Reilly, 2016.
 
 // tag::EN[]
 === {references}
-- Reference 1
-- Reference 2
+* Simon Marlow: Parallel and Concurrent Programming in Haskell:
+Techniques for Multicore and Multithreaded Programming. O’Reilly, 2013.
+* John H. Reppy: Concurrent Programming in ML. Cambridge University
+University Press, 2008.
+* Francesco Cesarini, Steve Vinoski: Designing for Scalability with
+Erlang/OTP: Implement Robust, Fault-Tolerant Systems. O’Reilly, 2016.
+* Betts et al.: Exploring CQRS and Event Sourcing. Microsoft, 2013.
 // end::EN[]
 
 

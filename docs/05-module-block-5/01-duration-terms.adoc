@@ -25,13 +25,20 @@ Model-View-Controller.
 
 // tag::EN[]
 |===
-| Lesson duration: XXX min | Exercises: XXX min
+| Lesson duration: 180 min | Exercises: 60 min
 |===
 
+Functional software architecture has specific architectural patterns.
+These include the use of high-performance functional data structures,
+the use of algebraic abstractions and UI development with the
+Model-View-Update Pattern as an alternative to Model-View-Controller.
+
 === Terms and concepts
-* Term 1
-* Term 2
-* Term 3
+* functional data structure
+* monoid
+* functor
+* monad
+* Model-View-Update.
 // end::EN[]
 
 // tag::REMARK[]

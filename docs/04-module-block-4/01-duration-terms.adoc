@@ -22,13 +22,19 @@ und Performance.
 
 // tag::EN[]
 |===
-| Lesson duration: XXX min | Exercises: XXX min
+| Lesson duration: 180 min | Exercises: 60 min
 |===
 
+This section covers specific functional techniques for implementing
+non-functional requirements such as data management, distribution and
+performance.
+
 === Terms and concepts
-* Term 1
-* Term 2
-* Term 3
+* CQRS
+* event sourcing
+* parallelization
+* distribution
+
 // end::EN[]
 
 // tag::REMARK[]

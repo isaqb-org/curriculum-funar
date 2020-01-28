@@ -32,6 +32,9 @@ Erlang/OTP: Implement Robust, Fault-Tolerant Systems. O’Reilly, 2016.
 September, 2014.
 
 F +
+[[[Felleisen+ 2014]]  Matthias Felleisen et al.: How to Design Programs. MIT Press, 2014.
+https://htdp.org/
+
 [[[Field+ 1988]]] Field, Harrison: Functional Programming. Addison-Wesley, 1988.
 
 G +

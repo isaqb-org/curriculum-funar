@@ -60,29 +60,29 @@ image:01-basics/zeitaufteilung.png[pdfwidth=75%, role="text-center"]
 | Recommended minimum duration (minutes)
 
 
-| 1. Introduction
+| 1. System structure
 | 180
 
-| 2. xz
-| 150
-
-| 3. Lots of theory
+| 2. Technologies
 | 120
 
-| 4. xy and example
-| 180
+| 3. Implementation of functional requirements
+| 240
 
-| 5. abc und d
-| 210
+| 4. Implementation of non-functional requirements
+| 240
 
-| 6. Final example
-| 120
+| 5. Architectural patterns
+| 240
+
+| 6. Example
+| 60
 
 |
 |
 
 | Sum
-| 960 (16h)
+| 1,080 (18h)
 
 |===
 

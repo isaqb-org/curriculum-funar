@@ -13,8 +13,10 @@ September, 2014.
 
 // tag::EN[]
 === {references}
-- Reference 1
-- Reference 2
+* Chris Okasaki: Purely functional data structures. Cambridge University
+Press, 1999.
+* Paul Chiusano, Runar Bjarnason: Functional Programming in Scala.
+September, 2014.
 // end::EN[]
 
 

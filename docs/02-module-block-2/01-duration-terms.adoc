@@ -26,13 +26,20 @@ Entscheidung für oder gegen eine Technologie zu ermöglichen.
 
 // tag::EN[]
 |===
-| Lesson duration: XXX min | Exercises: XXX min
+| Lesson duration: 120 min | Exercises: None
 |===
 
+Functional software architecture is usually associated with the use of
+functional programming languages and frameworks. This section provides
+an overview of the key features and limitations of available
+technologies to enable architects to decide for or against a technology.
+
 === Terms and concepts
-* Term 1
-* Term 2
-* Term 3
+* static types
+* dynamic types
+* tail recursion
+* strict or non-strict evaluation
+* runtime environment.
 // end::EN[]
 
 // tag::REMARK[]

@@ -4,11 +4,11 @@
 
 
 // tag::DE[]
-== 
+== Technologien
 // end::DE[]
 
 // tag::EN[]
-== Technologien
+== Technologies
 // end::EN[]
 
 include::01-duration-terms.adoc[{include_configuration}]

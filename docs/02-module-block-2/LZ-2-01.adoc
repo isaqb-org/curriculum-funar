@@ -25,8 +25,21 @@ include::../config/_feedback.adoc[]
 
 // tag::EN[]
 [[LG-2-1]]
-==== LG 2-1: TBD
-tbd.
+- What should the participants be able to do?
+   * Select a suitable programming language for a project
+   * Select suitable frameworks and libraries
+
+- What should the participants understand?
+   * The effect of the use of strict or non-strict evaluation on software
+   architecture
+   * The effect of using static or dynamic types
+   * The importance of tail recursion as a distinguishing feature
+
+- What should the participants know?
+   * Important functional languages and their main characteristics
+   * Exemplary frameworks and libraries
+   * The assignment of programming languages or their properties to
+   different runtime environments
 // end::EN[]
 
 // tag::REMARK[]

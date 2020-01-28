@@ -28,8 +28,22 @@ include::../config/_feedback.adoc[]
 
 // tag::EN[]
 [[LG-5-1]]
-==== LG 5-1: TBD
-tbd.
+- What should the participants be able to do?
+   * Utilize the possibilities of functional data structures for the
+   software architecture
+   * Recognize algebraic properties in domain objects
+   * Reflect algebraic properties in the code
+   * Design UI architecture with Model-View-Update
+
+- What should the participants understand?
+    * Trade-offs with the use of functional data structures
+    * Properties of algebraic abstractions
+    * Difference between Model-View-Update and Model-View-Controller
+
+- What should the participants know?
+    * Examples of functional data structures (hash tries, finger trees,
+    red-black trees)
+    * Properties of algebraic abstractions
 // end::EN[]
 
 // tag::REMARK[]
