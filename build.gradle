@@ -27,7 +27,7 @@ ext {
   addSuffixToCurriculum = { suffix ->
     for (extension in ["html", "pdf"]) {
       File source = new File("${buildDir}/${curriculumFileName}.${extension}")
-      File target = new File("${buildDir}/${curriculumFileName}${suffix}.${extension}")
+      File target = new File("${buildDir}/${curriculumFileName}_${project.version}${suffix}.${extension}")
 
       source.renameTo(target)
     }
