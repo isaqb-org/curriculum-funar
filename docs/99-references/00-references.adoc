@@ -19,52 +19,59 @@ This section contains references that are cited in the curriculum.
 // end::EN[]
 
 B +
-[[[Betts+ 2013]]]  Betts et al.: Exploring CQRS and Event Sourcing. Microsoft, 2013.
 
-[[[Brown 2018]]]  Simon Brown: Software Architecture for Developers: Volume 1 -
+- [[[betts,Betts+ 2013]]]  Betts et al.: Exploring CQRS and Event Sourcing. Microsoft, 2013.
+- [[[brown,Brown 2018]]]  Simon Brown: Software Architecture for Developers: Volume 1 -
 Technical leadership and the balance with agility. Leanpub, 2018.
 
 C +
-[[[Cesarini+ 2016]]]   Francesco Cesarini, Steve Vinoski: Designing for Scalability with
+
+- [[[cesarin,Cesarini+ 2016]]]   Francesco Cesarini, Steve Vinoski: Designing for Scalability with
 Erlang/OTP: Implement Robust, Fault-Tolerant Systems. O’Reilly, 2016.
 
-[[[Chiusano+ 2014]]] Paul Chiusano, Runar Bjarnason: Functional Programming in Scala.
+- [[[chiusano,Chiusano+ 2014]]] Paul Chiusano, Runar Bjarnason: Functional Programming in Scala.
 September, 2014.
 
 F +
-[[[Felleisen+ 2014]]  Matthias Felleisen et al.: How to Design Programs. MIT Press, 2014.
-https://htdp.org/
 
-[[[Field+ 1988]]] Field, Harrison: Functional Programming. Addison-Wesley, 1988.
+- [[[felleisen,Felleisen+ 2014]]  Matthias Felleisen et al.: How to Design Programs. MIT Press, 2014.
+https://htdp.org/
+- [[[field,Field+ 1988]]] Field, Harrison: Functional Programming. Addison-Wesley, 1988.
 
 G +
-[[[Gibbons+ 2003]]] Jeremy Gibbons, Oege de Moor (Herausgeber): The Fun of Programming.
+
+- [[[gibbons,Gibbons+ 2003]]] Jeremy Gibbons, Oege de Moor (Herausgeber): The Fun of Programming.
 Oxford University Press, 2003.
 
 H +
-[[[Hutton 2016]]] Graham Hutton: Programming in Haskell. Cambridge University Press, 2.
+
+- [[[hutton,Hutton 2016]]] Graham Hutton: Programming in Haskell. Cambridge University Press, 2.
 Auflage, 2016.
 
 K +
-[[[Sperber+ 2020]]] Michael Sperber, Herbert Klaeren: Schreibe Dein Programm!
+
+- [[[sperber,Sperber+ 2020]]] Michael Sperber, Herbert Klaeren: Schreibe Dein Programm!
 http://www.deinprogramm.de/
 
 M +
-[[[Marlow 2013]]] Simon Marlow: Parallel and Concurrent Programming in Haskell:
+
+- [[[marlow,Marlow 2013]]] Simon Marlow: Parallel and Concurrent Programming in Haskell:
 Techniques for Multicore and Multithreaded Programming. O’Reilly, 2013.
 
 O +
-[[[Okasaki 1999]]] Chris Okasaki: Purely functional data structures. Cambridge University
+
+- [[[okasaki,Okasaki 1999]]] Chris Okasaki: Purely functional data structures. Cambridge University
 Press, 1999.
 
 O +
-[[[Repply 2008]]] John H. Reppy: Concurrent Programming in ML. Cambridge University
+
+- [[[reppy,Reppy 2008]]] John H. Reppy: Concurrent Programming in ML. Cambridge University
 University Press, 2008.
 
 W +
-[[[Wikipedia 2020]]] Comparison of functional programming languages.
-https://en.wikipedia.org/wiki/Comparison_of_functional_programming_languages[Wikipedia]
 
-[[[Wlaschin 2018]]] Scott Wlaschin: Domain Modeling Made Functional. The Pragmatic
+- [[[wikipedia,Wikipedia 2020]]] Comparison of functional programming languages.
+https://en.wikipedia.org/wiki/Comparison_of_functional_programming_languages[Wikipedia]
+- [[[wlschin,Wlaschin 2018]]] Scott Wlaschin: Domain Modeling Made Functional. The Pragmatic
 Bookshelf, 2018.
 
