@@ -1,19 +1,6 @@
-// tag::DE[]
 === {references}
-* Jeremy Gibbons, Oege de Moor (Herausgeber): The Fun of Programming.
-Oxford University Press, 2003.
-* Scott Wlaschin: Domain Modeling Made Functional. The Pragmatic
-Bookshelf, 2018.
-// end::DE[]
-
-// tag::EN[]
-=== {references}
-* Gibbons, Oege de Moor (Herausgeber): The Fun of Programming.
-Oxford University Press, 2003.
-* Scott Wlaschin: Domain Modeling Made Functional. The Pragmatic
-Bookshelf, 2018.
-// end::EN[]
-
+- <<gibbons>>
+- <<wlaschin>>
 
 // tag::REMARK[]
 // end::REMARK[]
