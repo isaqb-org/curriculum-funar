@@ -3,8 +3,6 @@
 | Dauer: 60 Min. | Übungszeit: keine
 |===
 
-Dieser Abschnitt ist nicht prüfungsrelevant.
-
 === Begriffe und Konzepte
 Innerhalb jeder lizenzierten Schulung muss mindestens ein Beispiel für {curriculum-name} vorgestellt werden.
 
@@ -16,8 +14,6 @@ Art und Ausprägung der vorgestellten Beispiele können von der Schulung bzw. de
 |===
 | Lesson duration: XXX min | Exercises: XXX min
 |===
-
-This section is not examinable.
 
 === Terms and concepts
 In every licensed training session, at least one example for {curriculum-short} must be presented.

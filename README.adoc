@@ -16,7 +16,7 @@ endif::[]
 This is still a *DRAFT* version!!
 By open-sourcing our curricula, we aim at making our work more transparent and encouraging the software community to provide feedback.
 
-image:https://travis-ci.org/isaqb-org/curriculum-funar.svg?branch=master["Build Status", link="https://travis-ci.org/isaqb-org/curriculum-funar"]
+image:https://github.com/isaqb-org/curriculum-funar/workflows/CI/badge.svg?branch=master["CI"]
 image:https://img.shields.io/github/last-commit/isaqb-org/curriculum-funar/master.svg["Last commit"]
 image:https://img.shields.io/github/contributors/isaqb-org/curriculum-funar.svg["Contributors",link="https://github.com/isaqb-org/curriculum-funar/graphs/contributors"]
 image:https://img.shields.io/github/issues/isaqb-org/curriculum-funar.svg["Issues",link="https://github.com/isaqb-org/curriculum-funar/issues"]
@@ -29,7 +29,6 @@ This is <<copyrighted,copyrighted work>>.
 This repository contains the curriculum for the https://www.isaqb.org/certifications/advanced-level/[iSAQB Advanced Level] module *FUNAR*.
 The curriculum is generated from Asciidoc files in the `docs` subfolder.
 
-Soon we are going to build the output files (see below) via Travis CI upon each commit to any branch of this repository.
 New official revisions of the curriculum will be published via the https://github.com/isaqb-org/curriculum-funar/releases[Github Releases] features.
 
 For more information on the iSAQB or the Certified Professional for Software Architecture certification program, please visit https://isaqb.org.
@@ -63,28 +62,4 @@ so the contributors of that project basically contributed to this one, too.
 [[copyrighted]]
 == Licensing and Copyright
 
-[IMPORTANT]
-====
-THIS IS COPYRIGHTED WORK.
-
-© (Copyright), https://isaqb.org[International Software Architecture Qualification Board e. V.]
-(iSAQB® e. V.) 2009-2019
-====
-
-[IMPORTANT]
-====
-YOU NEED TO CHANGE that copyright for your REAL document!
-====
-
-The curriculum may only be used subject to the following conditions:
-
-1.	You wish to obtain the CPSA Certified Professional for Software Architecture Advanced Level® certificate. For the purpose of obtaining the certificate, it shall be permitted to use these text documents and/or curricula by creating working copies for your own computer. If any other use of documents and/or curricula is intended, for instance for their dissemination to third parties, for advertising etc., please write to contact@isaqb.org to enquire whether this is permitted. A separate license agreement would then have to be entered into.
-2.	If you are a trainer, training provider or training organizer, it shall be possible for you to use the documents and/or curricula once you have obtained a usage license.
-Please address any enquiries to contact@isaqb.org. License agreements with comprehensive provisions for all aspects exist.
-3.	If you fall neither into category 1 nor category 2, but would like to use these documents and/or curricula nonetheless, please also contact the iSAQB e. V. by writing to contact@isaqb.org. You will then be informed about the possibility of acquiring relevant licenses through existing license agreements, allowing you to obtain your desired usage authorizations.
-
-*We stress that, as a matter of principle, this curriculum is protected by copyright.
-The International Software Architecture Qualification Board e. V. (iSAQB^®^ e. V.) has exclusive entitlement to these copyrights.*
-
-The abbreviation "e. V." is part of the iSAQB's official name and stands for "eingetragener Verein" (registered association), which describes its status as a legal entity according to German law.
-For the purpose of simplicity, iSAQB e. V. shall hereafter be referred to as iSAQB without the use of said abbreviation.
+include::LICENSE.adoc[]
