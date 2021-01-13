@@ -1,4 +1,6 @@
 // tag::DE[]
+=== Was vermittelt das Modul „{curriculum-short}“?
+
 Das Modul präsentiert den Teilnehmerinnen funktionale
 Software-Architektur als Alternative zu objektorientierter Architektur.
 Im Vergleich zu OO-Architektur setzt die funktionale
@@ -33,6 +35,8 @@ Abstraktionen entwickeln.
 // end::DE[]
 
 // tag::EN[]
+=== What does the module “{curriculum-short}” convey?
+
 The module presents functional software architecture as an alternative
 to object-oriented architecture. Compared to OO architecture, functional
 software architecture relies on immutable data, algebraic abstractions
