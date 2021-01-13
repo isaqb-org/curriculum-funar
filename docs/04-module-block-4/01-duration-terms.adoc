@@ -8,10 +8,7 @@ Umsetzung nicht-funktionaler Anforderungen wie Datenhaltung, Verteilung
 und Performance.
 
 === Begriffe und Konzepte
-* CQRS
-* Event Sourcing
-* Parallelisierung
-* Verteilung
+CQRS, Event Sourcing, Parallelisierung, Verteilung
 
 // end::DE[]
 
@@ -25,10 +22,7 @@ non-functional requirements such as data management, distribution and
 performance.
 
 === Terms and concepts
-* CQRS
-* event sourcing
-* parallelization
-* distribution
+CQRS, event sourcing, parallelization, distribution
 
 // end::EN[]
 

@@ -10,11 +10,7 @@ UI-Entwicklung mit dem Model-View-Update-Pattern als Gegenmodell zu
 Model-View-Controller.
 
 === Begriffe und Konzepte
-* funktionale Datenstruktur
-* Monoid
-* Funktor
-* Monade
-* Model-View-Update
+funktionale Datenstruktur, Monoid, Funktor, Monade, Model-View-Update
 
 // end::DE[]
 
@@ -29,11 +25,7 @@ the use of algebraic abstractions and UI development with the
 Model-View-Update Pattern as an alternative to Model-View-Controller.
 
 === Terms and concepts
-* functional data structure
-* monoid
-* functor
-* monad
-* Model-View-Update.
+functional data structure, monoid, functor, monad, Model-View-Update.
 // end::EN[]
 
 // tag::REMARK[]

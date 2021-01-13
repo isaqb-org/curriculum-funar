@@ -1,6 +1,5 @@
 === {references}
-- <<okasaki>>
-- <<chiusano>>
+<<okasaki>>, <<chiusano>>
 
 // tag::REMARK[]
 // end::REMARK[]

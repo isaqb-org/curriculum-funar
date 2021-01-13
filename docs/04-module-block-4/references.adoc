@@ -1,8 +1,5 @@
 === {references}
-- <<betts>>
-- <<cesarini>>
-- <<marlow>>
-- <<reppy>>
+<<betts>>, <<cesarini>>, <<marlow>>, <<reppy>>
 
 // tag::REMARK[]
 // end::REMARK[]
