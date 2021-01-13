@@ -11,11 +11,7 @@ Entscheidung für oder gegen eine Technologie zu ermöglichen.
 
 === Begriffe und Konzepte
 
-* statische Typen
-* dynamische Typen
-* Endrekursion
-* strikte bzw. nicht-strikte Auswertung
-* Laufzeitumgebung
+statische Typen, dynamische Typen, Endrekursion, strikte bzw. nicht-strikte Auswertung, Laufzeitumgebung
 
 // end::DE[]
 
@@ -30,11 +26,7 @@ an overview of the key features and limitations of available
 technologies to enable architects to decide for or against a technology.
 
 === Terms and concepts
-* static types
-* dynamic types
-* tail recursion
-* strict or non-strict evaluation
-* runtime environment.
+static types, dynamic types, tail recursion, strict or non-strict evaluation, runtime environment.
 // end::EN[]
 
 // tag::REMARK[]

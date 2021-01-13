@@ -11,10 +11,7 @@ Domänenwissen auf. Eingebettete domänenspezifische Sprachen ermöglichen
 einen schnellen Abgleich von Anforderungen und Architektur.
 
 === Begriffe und Konzepte
-* funktionale Anforderungen
-* DDD
-* Kombinatormodelle
-* eingebettete domänenspezifische Sprachen
+funktionale Anforderungen, DDD, Kombinatormodelle, eingebettete domänenspezifische Sprachen
 
 // end::DE[]
 
@@ -31,10 +28,7 @@ knowledge. Embedded domain-specific languages allow fast alignment of
 requirements and architecture.
 
 === Terms and concepts
-* functional requirements
-* DDD
-* combinator models
-* embedded domain-specific languages.
+functional requirements, DDD, combinator models, embedded domain-specific languages.
 // end::EN[]
 
 // tag::REMARK[]

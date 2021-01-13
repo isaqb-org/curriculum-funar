@@ -1,8 +1,6 @@
 === {references}
-- <<brown>>
-- <<felleisen>>
-- <<hutton>>
-- <<sperber>>
+<<brown>>, <<felleisen>>, <<hutton>>, <<sperber>>
+
 
 // tag::REMARK[]
 // end::REMARK[]

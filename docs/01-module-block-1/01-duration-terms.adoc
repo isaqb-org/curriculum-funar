@@ -14,10 +14,7 @@ der objektorientierten Architektur sind Funktionen nicht an Klassen
 gebunden, sondern werden in Modulen gebündelt.
 
 === Begriffe und Konzepte
-* Funktionen und Werte
-* Komposition
-* Typen
-* Module
+Funktionen und Werte, Komposition, Typen, Module
 
 // end::DE[]
 
@@ -36,10 +33,7 @@ architecture, functions are bundled in modules, as opposed to
 object-oriented programming where they are bundled with classes.
 
 === Terms and concepts
-* Functions and values
-* Composition
-* Types
-* Modules
+Functions and values, Composition, Types, Modules
 // end::EN[]
 
 
