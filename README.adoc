@@ -51,6 +51,9 @@ You can start a build locally when you run `./gradlew buildDocs` inside the clon
 If you don't modify the configuration, this build will create pdf and html output in German (DE) _and_ English (EN) with and without remarks.
 
 
+== Additional translations/languages
+include::docs-ext/EXTERNAL_DOCUMENTS_README.adoc[]
+
 == Maintainers
 
 This repository is currently maintained by
