@@ -13,9 +13,6 @@ endif::[]
 
 == Status
 
-This is still a *DRAFT* version!!
-By open-sourcing our curricula, we aim at making our work more transparent and encouraging the software community to provide feedback.
-
 image:https://github.com/isaqb-org/curriculum-funar/workflows/CI/badge.svg?branch=master["CI"]
 image:https://img.shields.io/github/last-commit/isaqb-org/curriculum-funar/master.svg["Last commit"]
 image:https://img.shields.io/github/contributors/isaqb-org/curriculum-funar.svg["Contributors",link="https://github.com/isaqb-org/curriculum-funar/graphs/contributors"]
