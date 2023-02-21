@@ -16,13 +16,10 @@ This section contains references that are cited in the curriculum.
 **B**
 
 - [[[betts,Betts+ 2013]]] Betts et al.: Exploring CQRS and Event Sourcing. Microsoft, 2013.
-- [[[brown,Brown 2018]]] Simon Brown: Software Architecture for Developers: Volume 1 -
 Technical leadership and the balance with agility. Leanpub, 2018.
 
 **C**
 
-- [[[cesarini,Cesarini+ 2016]]] Francesco Cesarini, Steve Vinoski: Designing for Scalability with
-Erlang/OTP: Implement Robust, Fault-Tolerant Systems. O’Reilly, 2016.
 - [[[chiusano,Chiusano+ 2014]]] Paul Chiusano, Runar Bjarnason: Functional Programming in Scala.
 September, 2014.
 
@@ -51,11 +48,6 @@ Techniques for Multicore and Multithreaded Programming. O’Reilly, 2013.
 
 - [[[okasaki,Okasaki 1999]]] Chris Okasaki: Purely functional data structures. Cambridge University
 Press, 1999.
-
-**R**
-
-- [[[reppy,Reppy 2008]]] John H. Reppy: Concurrent Programming in ML. Cambridge University
-University Press, 2008.
 
 **S**
 
