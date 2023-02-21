@@ -3,11 +3,11 @@
 // ====================================================
 
 // tag::DE[]
-== Systemstruktur
+== Grundlagen funktionaler Programmierung
 // end::DE[]
 
 // tag::EN[]
-== System structure
+== Basics of Functional Programming
 // end::EN[]
 
 include::01-duration-terms.adoc[{include_configuration}]

@@ -1,11 +1,6 @@
 // tag::DE[]
 === Gliederung des Lehrplans für Funktionale Softwarearchitektur und empfohlene zeitliche Aufteilung
 
-Die Gliederung des Lehrplans richtet sich nach der Gliederung der
-Aufgaben von Software-Architektur in Simon Brown: Software Architecture
-for Developers: Volume 1 - Technical Leadership and the Balance with
-Agility. Leanpub, 2018.
-
 [cols="<,>", options="header"]
 |===
 
@@ -13,7 +8,7 @@ Agility. Leanpub, 2018.
 | Empfohlene Mindestdauer (min)
 
 
-| 1. Systemstruktur
+| 1. Grundlagen funktionaler Programmierung
 | 180
 
 | 2. Technologien
@@ -51,7 +46,7 @@ Agility. Leanpub, 2018.
 | Recommended minimum duration (minutes)
 
 
-| 1. System structure
+| 1. Basics of Functional Programming
 | 180
 
 | 2. Technologies
