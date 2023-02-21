@@ -2,39 +2,62 @@
 
 // tag::DE[]
 [[LZ-3-1]]
+==== LZ 3-1: Kombinatormodelle
 
-- Was sollen die Teilnehmer können?
-   * DDD mit Hilfe funktionaler Bausteine umsetzen
-   * rudimentäre Kombinatormodelle formulieren
-   * kleine domänenspezifische Sprachen entwerfen
+* die Struktur von Kombinatormodellen mit Selbstbezüge verstehen
+* die Vorteile von Kombinatormodellen gegenüber "normalen" Modellen
+  verstehen
+* Kombinatoren in Domänenmodellen entdecken können
+* Kombinatormodelle konstruieren können
 
-- Was sollen die Teilnehmer verstehen?
-   * die Umsetzung von DDD-Entitäten mit funktionaler Programmierung
-   * die spezifischen Eigenschaften von Kombinatormodellen
-   * die Rolle domänenspezifischer Sprachen bei der Entwicklung
-- Was sollen die Teilnehmer kennen?
-   * Beispiele für Kombinatormodelle
-   * die spezifischen Vorteile von Kombinatormodellen
-   * Beispiele für eingebettete domänenspezifische Sprachen
+[[LZ-3-2]]
+==== LZ 3-2: Algebraische Strukturen
+
+* die Natur und den Wert algebraischer Struktur in der
+  Domänenmodellierung verstehen
+* die Konzepte Halbgruppe, Monoid, Funktor und applikativer Funktor
+  kennen
+* Halbgruppen und Monoide in Kombinatormodellen finden können
+
+[[LZ-3-3]]
+==== LZ 3-3: Domain-Driven Design
+
+* die Unterschiede und Gemeinsamkeiten zwischen dem DDD- und dem
+  funktionalen Ansatz zur Domänenmodellierung verstehen
+* die Beziehung zwischen Kombinatormodellen und dem Konzept "closure
+  of operations" in DDD verstehen
+* Teile einer DDD-Architektur mit funktionaler Programmierung umsetzen
+  können
 
 // end::DE[]
 
 // tag::EN[]
 [[LG-3-1]]
-- What should the participants be able to do?
-   * Implement DDD with the aid of functional building blocks
-   * Formulate rudimentary combinator models
-   * Design small domain-specific languages
+==== LG 3-1: Combinator Models
 
-- What should the participants understand?
-   * The implementation of DDD entities with functional programming
-   * The specific properties of combinator models
-   * The role of domain-specific languages in development
+* understand the structure of combinator models with self-references
+* understand the advantages of combinator models over "plain" models
+* be able to discover combinators in domain models
+* be able to construct combinator models
 
-- What should the participants know?
-   * Examples of combinator models
-   * The specific advantages of combinator models
-   * Examples of embedded domain-specific languages
+[[LG-3-2]]
+==== LG 3-2: Algebraic Structures
+
+* understand the nature and value of algebraic structures in domain
+  modeling
+* know the concepts semigroup, monoid, functor, and applicative
+  functor
+* be able to identify semigroups and monoids in combinator models
+
+[[LG-3-3]]
+==== LG 3-3: Domain-Driven Design
+
+* understand the differences and similarities between the DDD and the
+  functional approaches to domain modeling
+* understand the relationship between combinator models and the
+  concept of "closure of operations" in DDD
+* be able to construct parts of DDD architecture using functional
+  programming
 
 // end::EN[]
 

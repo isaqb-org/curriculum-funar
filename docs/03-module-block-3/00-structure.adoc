@@ -4,11 +4,11 @@
 
 
 // tag::DE[]
-== Umsetzung von funktionalen Anforderungen
+== Funktionale Modellierung
 // end::DE[]
 
 // tag::EN[]
-== Implementation of functional requirements
+== Functional Modeling
 // end::EN[]
 
 include::01-duration-terms.adoc[{include_configuration}]

@@ -3,15 +3,17 @@
 | Dauer: 180 Min. | Übungszeit: 60 Min.
 |===
 
-Dieser Abschnitt behandelt inhärent funktionale Ansätze, um funktionale
-Anforderungen in Software-Architektur umzusetzen. Domain-driven Design
-kann mit funktionaler Programmierung statt objektorientierter
-Programmierung umgesetzt werden. Kombinatormodelle decken verstecktes
-Domänenwissen auf. Eingebettete domänenspezifische Sprachen ermöglichen
-einen schnellen Abgleich von Anforderungen und Architektur.
+Dieser Abschnitt behandelt spezifisch funktionale Ansätze zur
+Domänenmodellierung.  Im Zentrum stehen Kombinatormodelle, die
+besonders flexibel und langlebig sind.  Des weiteren geht es um
+algebraische Strukturen in der Domänenmodellierung, die Aspekte der
+Domäne zutage fördern können, die ohne Algebra verborgen bleiben.
+Schließlich behandelt der Abschnitt noch die Beziehung zwischen
+taktischem Domain-Driven Desin und funktionaler Modellierung.
 
 === Begriffe und Konzepte
-funktionale Anforderungen, DDD, Kombinatormodelle, eingebettete domänenspezifische Sprachen
+Kombinatormodelle, Algebra, Halbgruppe, Monoid, Funktor, applikativer
+Funktor, DDD, closure of operations
 
 // end::DE[]
 
@@ -20,15 +22,17 @@ funktionale Anforderungen, DDD, Kombinatormodelle, eingebettete domänenspezifis
 | Lesson duration: 180 min | Exercises: 60 min
 |===
 
-This section discusses inherently functional approaches to translating
-functional requirements into software architecture. Domain-driven design
-can be implemented with functional programming instead of
-object-oriented programming. Combinator models reveal hidden domain
-knowledge. Embedded domain-specific languages allow fast alignment of
-requirements and architecture.
+This section discusses specifically functional approaches to domain
+modeling.  Combinator models are the most important aspect, which are
+particularly flexible and long-lived.  Another theme is algebraic
+structure in domain modeling, which can reveal aspects of the domain
+that would remain hidden without algebra.  Finally, the section
+discusses the relationship between tactical Domain-Driven Design and
+functional modeling.
 
 === Terms and concepts
-functional requirements, DDD, combinator models, embedded domain-specific languages.
+combinator models, algebra, semigroup, monoid, functor, applicative
+functor, DDD, closure of operations
 // end::EN[]
 
 // tag::REMARK[]
