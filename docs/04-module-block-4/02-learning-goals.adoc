@@ -2,48 +2,54 @@
 
 // tag::DE[]
 [[LZ-4-1]]
+==== LZ 4-1: Monaden
 
-- Was sollen die Teilnehmer können?
-   * für spezifisches Projekt die Datenhaltung mit Event Sourcing entwerfen
-   * ein Query-Modell passend zu einem Event-Sourcing-Modell und einer
-   Oberflächen-Anforderung entwerfen
-   * Techniken für effektive Parallelisierung auswählen
-   * Techniken für effektive Verteilung auswählen
+* verstehen, wie Monaden sequenzielle Prozesse mit
+  Datenbabhängigkeiten abbilden
++ mehrere konkrete Beispiele für Monaden in gängigen Abstraktionen
+  kennen
+* verstehen, wie Monaden über den Kontrollfluss abstrahieren
+* Monaden einsetzen können, um Domänenprozesse zu modellieren
+* Monaden einsetzen können, um Dependency Injection umzusetzen
 
-- Was sollen die Teilnehmer verstehen?
-   * den Unterschied zwischen „Data Warehousing“ und
-   Event-Sourcing-Ansätzen
-   * die Rolle von Query-Modellen
-   * die Rolle funktionaler Datenstrukturen bei der Parallelisierung
-   * die Rolle funktionaler Datenhaltung bei der Verteilung
+==== LZ 4-2: Events
 
-- Was sollen die Teilnehmer kennen?
-   * Datenparallelität
-   * Futures
-   * Message Passing
+* verstehen, wie Events in den Architektur-Entwurfsprozess passen
+* verstehen, wie funktionale Programmierung verwendet werden kann, um
+  event-basierte Architektur umzusetzen
 
+==== LZ 4-3: Model View Update
+
+* die grundlegende Struktur des Patterns Model View Update verstehen
+* den Unterschied zwischen Model View Update und objekt-orientierten
+  Model-View-Patterns verstehen
+* eine einfache Beispielapplikation auf Grundlage von Model View
+  Update entwickeln können
 // end::DE[]
 
 // tag::EN[]
 [[LG-4-1]]
-- What should the participants be able to do?
-   * Design the data management for a specific project with event sourcing
-   * Design a query model to match an event sourcing model and user
-   interface requirement
-   * Select techniques for effective parallelization
-   * Select techniques for effective distribution
+==== LG 4-1: Monads
 
-- What should the participants understand?
-   * The difference between "data warehousing" and event sourcing
-   approaches
-   * The role of query models
-   * The role of functional data structures in parallelization
-   * The role of functional data management in distribution
+* understand how monads express sequential processes with data
+  dependencies
+* know several concrete examples of monads in common abstractions
+* understand how monads abstract over control flow
+* be able to use monads to model domain processes
+* be able to use monads for dependency injection
 
-- What should the participants know?
-   * Data parallelism
-   * Futures
-   * Message passing
+==== LG 4-2: Events
+
+* understand how events fit into the architecture design process
+* understand how functional programming can express event-based
+  architecture
+
+==== LG 4-3: Model View Update
+
+* understand the basic structure of the Model View Update pattern
+* understand the difference between Model View Update and
+  object-oriented Model View patterns
+* be able to develop a simple application frontend based on Model View Update
 // end::EN[]
 
 // tag::REMARK[]

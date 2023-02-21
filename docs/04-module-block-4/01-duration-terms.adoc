@@ -3,12 +3,12 @@
 | Dauer: 180 Min. | Übungszeit: 60 Min.
 |===
 
-Dieser Abschnitt behandelt spezifische funktionale Techniken zur
-Umsetzung nicht-funktionaler Anforderungen wie Datenhaltung, Verteilung
-und Performance.
+Dieser Abschnitt behandelt spezifisch funktionale Konzepte für
+Makro-Architektur.  Speziell geht es um die Organisation von Systemen
+in Abläufe sowie funktionale Frontend-Architektur.
 
 === Begriffe und Konzepte
-CQRS, Event Sourcing, Parallelisierung, Verteilung
+Monaden, Dependency Injection, Model View Update, Events
 
 // end::DE[]
 
@@ -17,12 +17,13 @@ CQRS, Event Sourcing, Parallelisierung, Verteilung
 | Lesson duration: 180 min | Exercises: 60 min
 |===
 
-This section covers specific functional techniques for implementing
-non-functional requirements such as data management, distribution and
-performance.
+This section is about specifically functional concepts for macro
+architecture.  Specifically, it convers the organisation of a system
+into workflows and functional frontend architecture.
+
 
 === Terms and concepts
-CQRS, event sourcing, parallelization, distribution
+monads, dependency injection, Model View Update, events
 
 // end::EN[]
 

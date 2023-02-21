@@ -22,7 +22,7 @@ Agility. Leanpub, 2018.
 | 3. Funktionale Modellierung
 | 240
 
-| 4. Umsetzung von nicht-funktionalen Anforderungen
+| 4. Funktionale Makro-Architektur
 | 240
 
 | 5. Architekturmuster
@@ -60,7 +60,7 @@ Agility. Leanpub, 2018.
 | 3. Functional Modeling
 | 240
 
-| 4. Implementation of non-functional requirements
+| 4. Functional Macro Architecture
 | 240
 
 | 5. Architectural patterns

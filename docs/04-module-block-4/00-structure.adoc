@@ -4,11 +4,11 @@
 
 
 // tag::DE[]
-== Umsetzung von nicht-funktionalen Anforderungen
+== Funktionale Makro-Architektur
 // end::DE[]
 
 // tag::EN[]
-== Implementation of non-functional requirements
+== Functional Macro Architecture
 // end::EN[]
 
 include::01-duration-terms.adoc[{include_configuration}]
