@@ -2,39 +2,83 @@
 
 // tag::DE[]
 [[LZ-1-1]]
+==== LZ 1-1: Daten
 
-- Was sollen die Teilnehmer können?
-   * Informationen als unveränderliche Werte repräsentieren
-   * zentrale Funktionalität als Funktionen formulieren
-   * für diese Funktionen Typen konstruieren
+* die Rolle von systematischer Datenanalyse in der Domänenmodellierung
+  verstehen
+* Informationen systematisch als Daten repräsentieren können
+* den Unterschied zwischen zusammengesetzten und gemischten Daten
+  verstehen
+* die Rolle von Selbstbezügen in der Datenrepräsentation verstehen
+* bei der Datenanalyse Selbstbezüge finden und nutzen können
+* den Unterschied zwischen Objekten und Werten verstehen
+* den Unterschied zwischen funktionalen und objektorientierten
+  Datenstrukturen verstehen
 
-- Was sollen die Teilnehmer verstehen?
-  * den Unterschied zwischen dem objektorientierten und dem funktionalen
-Software-Modell
-  * die Rolle von Typen beim funktionalen Software-Design
-  * Module als Alternative zu Klassen
+[[LZ-1-2]]
+==== LZ 1-2: Funktionen
 
-- Was sollen die Teilnehmer kennen?
-  * Beispiele für funktionale System-Architekturen
+* Funktionen systematisch anhand von Anforderungen konstruieren können
+* den Unterschied zwischen reinen Funktionen und zustandsverändernden
+  Prozeduren beziehungsweise objektorientierten Methoden verstehen
+* systematische Abstraktion anwenden können
+* Funktionen durch Abstraktion komponieren können
 
+[[LZ-1-3]]
+==== LZ 1-3: Typen
+
+* die Rolle von Typen bei der Datenanalyse verstehen
+* Typen benutzen können, um Funktionen systematisch zu konstruieren
+* Datenrepräsentationen in sowohl getypten als auch ungetypten
+  Sprachen aus der Datenanalyse herleiten können
+
+[[LZ-1-4]]
+==== LZ 1-4: Modularisierungsmechanismen
+
+* den Unterschied zwischen den Modularisierungsmechanismen in
+  objektorientierter und funktionaler Programmierung verstehen
+* den Modulmechanismus mindestens einer konkreten Sprache
+  kennen
+* Organisationsprinzipien für Module in funktionalem Code kennen
 // end::DE[]
 
 // tag::EN[]
 [[LG-1-1]]
-- What should the participants be able to do?
-   * Represent information as immutable values
-   * Formulate central functionality as functions
-   * Construct types for these functions
+==== LG 1-1: Data
 
--  What should the participants understand?
-   * The difference between the object-oriented and the functional software
-   model
-   * The role of types in functional software design
-   * Modules as an alternative to classes
+* understand the role of systematic data analysis in domain modeling
+* be able to represent information as data systematically
+* understand the difference between compound and mixed data
+* understand the role of self-references in data representation
+* be able to find and use self-refencences during data analysis
+* understand the difference between objects and values
+* understand the difference between functional and object-oriented
+  data structures
 
-- What should the participants know?
-   * Examples of functional system architectures
+[[LG-1-2]]
+==== LG 1-2: Functions
 
+* be able to design functions systematically to requirements
+* understand the difference between pure functions and state-mutating
+  procedures viz. object-oriented methods
+* be able to apply abstraction systematically
+* be able to compose functions via abstractions
+
+[[LG-1-3]]
+==== LG 1-3: Types
+
+* understand the role of types in data analysis
+* be able to use types to design functions systematically
+* be able to derive data representations from data analysis in both
+  typed and untyped languages
+
+[[LG-1-4]]
+==== LG 1-4: Modularisation mechanisms
+
+* understand the difference between modularisation mechanisms in
+  object-oriented and functional programming
+* know the module mechanism in at least one concrete language
+* know organisation principles for modules in functional code
 
 // end::EN[]
 

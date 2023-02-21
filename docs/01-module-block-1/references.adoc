@@ -1,5 +1,5 @@
 === {references}
-<<brown>>, <<felleisen>>, <<hutton>>, <<sperber>>
+<<felleisen>>, <<hutton>>, <<sperber>>, <<okasaki>>
 
 
 // tag::REMARK[]
