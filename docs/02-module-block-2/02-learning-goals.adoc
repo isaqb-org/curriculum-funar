@@ -5,7 +5,7 @@
 ==== LZ 2-1: Eigenschaften funktionaler Sprachen
 
 * die Auswirkung der Verwendung statischer beziehungsweise dynamischer
-  Typsystgeme verstehen
+  Typsysteme verstehen
 * den Unterschied zwischen strikter und nicht-strikter Auswertung
   verstehen
 * die Bedeutung von Endrekursion als Unterscheidungsmerkmal verstehen
@@ -22,14 +22,14 @@
 
 // tag::EN[]
 [[LG-2-1]]
+==== LG 2-1: Properties of functional languages
 
-==== LZ 2-1: Properties of functional languages
-
-* the consequences of using static and dynamic type systems, respectively
+* understand the consequences of using static and dynamic type systems, respectively
 * understand the difference between strict and lazy evaluation
 * understand the relevance of proper tail recursion
 
-==== LZ 2-2: Choice of functional language
+[[LG-2-2]]
+==== LG 2-2: Choice of functional language
 
 * know important functional languages and their main characteristics
 * know the relationship between languages, their characteristics and
