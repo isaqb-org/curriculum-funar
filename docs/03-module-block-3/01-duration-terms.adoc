@@ -9,7 +9,7 @@ besonders flexibel und langlebig sind.  Des weiteren geht es um
 algebraische Strukturen in der Domänenmodellierung, die Aspekte der
 Domäne zutage fördern können, die ohne Algebra verborgen bleiben.
 Schließlich behandelt der Abschnitt noch die Beziehung zwischen
-taktischem Domain-Driven Desin und funktionaler Modellierung.
+taktischem Domain-Driven Design und funktionaler Modellierung.
 
 === Begriffe und Konzepte
 Kombinatormodelle, Algebra, Halbgruppe, Monoid, Funktor, applikativer
