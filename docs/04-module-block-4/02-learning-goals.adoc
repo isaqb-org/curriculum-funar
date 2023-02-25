@@ -12,12 +12,14 @@
 * Monaden einsetzen können, um Domänenprozesse zu modellieren
 * Monaden einsetzen können, um Dependency Injection umzusetzen
 
+[[LZ-4-2]]
 ==== LZ 4-2: Events
 
 * verstehen, wie Events in den Architektur-Entwurfsprozess passen
 * verstehen, wie funktionale Programmierung verwendet werden kann, um
   event-basierte Architektur umzusetzen
 
+[[LZ-4-3]]
 ==== LZ 4-3: Model View Update
 
 * die grundlegende Struktur des Patterns Model View Update verstehen
@@ -38,12 +40,14 @@
 * be able to use monads to model domain processes
 * be able to use monads for dependency injection
 
+[[LG-4-2]]
 ==== LG 4-2: Events
 
 * understand how events fit into the architecture design process
 * understand how functional programming can express event-based
   architecture
 
+[[LG-4-3]]
 ==== LG 4-3: Model View Update
 
 * understand the basic structure of the Model View Update pattern
