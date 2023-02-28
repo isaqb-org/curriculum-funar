@@ -44,6 +44,10 @@ Auflage, 2016.
 
 **M**
 
+- [[[maguire,Maguire 2021]]] Sandy Maguire: Algebra-Driven Design. Leanpub, 2021.
+
+**M**
+
 - [[[marlow,Marlow 2013]]] Simon Marlow: Parallel and Concurrent Programming in Haskell:
 Techniques for Multicore and Multithreaded Programming. O’Reilly, 2013.
 
@@ -69,3 +73,9 @@ http://www.deinprogramm.de/
 https://en.wikipedia.org/wiki/Comparison_of_functional_programming_languages[Wikipedia]
 - [[[wlaschin,Wlaschin 2018]]] Scott Wlaschin: Domain Modeling Made Functional. The Pragmatic
 Bookshelf, 2018.
+
+**Y**
+
+- [[[yorgey,Yorgey 2012]]] Brent A. Yorgey, Monoids: Theme and
+  Variations. Proceedings of the 2012 Haskell Symposium, September
+  2012 <https://doi.org/10.1145/2364506.2364520>

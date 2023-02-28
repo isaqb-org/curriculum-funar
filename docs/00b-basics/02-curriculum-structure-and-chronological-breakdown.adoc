@@ -19,7 +19,7 @@ Agility. Leanpub, 2018.
 | 2. Technologien
 | 120
 
-| 3. Umsetzung von funktionalen Anforderungen
+| 3. Funktionale Modellierung
 | 240
 
 | 4. Umsetzung von nicht-funktionalen Anforderungen
@@ -57,7 +57,7 @@ Agility. Leanpub, 2018.
 | 2. Technologies
 | 120
 
-| 3. Implementation of functional requirements
+| 3. Functional Modeling
 | 240
 
 | 4. Implementation of non-functional requirements
