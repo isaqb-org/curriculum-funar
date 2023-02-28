@@ -4,7 +4,9 @@
 [[LZ-3-1]]
 ==== LZ 3-1: Kombinatormodelle
 
-* die Struktur von Kombinatormodellen mit Selbstbezüge verstehen
+* die Struktur von Kombinatormodellen mit Selbstbezüge verstehen, also
+  Modelle mit Konstruktoren, die Objekte eines Typs T aus anderen
+  Objekten des Typs T herstellen
 * die Vorteile von Kombinatormodellen gegenüber "normalen" Modellen
   verstehen
 * Kombinatoren in Domänenmodellen entdecken können
@@ -35,7 +37,9 @@
 [[LG-3-1]]
 ==== LG 3-1: Combinator Models
 
-* understand the structure of combinator models with self-references
+* understand the structure of combinator models with self-references,
+  i.e. models with constructors that build objects of a type T from
+  other objects of type T
 * understand the advantages of combinator models over "plain" models
 * be able to discover combinators in domain models
 * be able to construct combinator models
