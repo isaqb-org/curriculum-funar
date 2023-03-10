@@ -29,7 +29,7 @@
 
 * die Rolle von Typen bei der Datenanalyse verstehen
 * Typen benutzen können, um Funktionen systematisch zu konstruieren
-* Datenrepräsentationen in sowohl getypten als auch ungetypten
+* Datenrepräsentationen in sowohl statisch als auch dynamisch getypten
   Sprachen aus der Datenanalyse herleiten können
 
 [[LZ-1-4]]
@@ -71,7 +71,7 @@
 * understand the role of types in data analysis
 * be able to use types to design functions systematically
 * be able to derive data representations from data analysis in both
-  typed and untyped languages
+  statically and dynamically typed languages
 
 [[LG-1-4]]
 ==== LG 1-4: Modularisation mechanisms
