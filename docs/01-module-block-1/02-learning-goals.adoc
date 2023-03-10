@@ -35,11 +35,12 @@
 [[LZ-1-4]]
 ==== LZ 1-4: Modularisierungsmechanismen
 
+* den Modulmechanismus mindestens einer konkreten funktionalen
+  Sprache kennen
 * den Unterschied zwischen den Modularisierungsmechanismen in
-  objektorientierter und funktionaler Programmierung verstehen
-* den Modulmechanismus mindestens einer konkreten Sprache
-  kennen
-* Organisationsprinzipien für Module in funktionalem Code kennen
+  objektorientierter Programmierung und dem behandelten funktionalen
+  Modulmechanismus verstehen
+* Organisationsprinzipien für funktionalen Code kennen
 // end::DE[]
 
 // tag::EN[]
@@ -75,10 +76,11 @@
 [[LG-1-4]]
 ==== LG 1-4: Modularisation mechanisms
 
+* know the module mechanism in at least one concrete functional
+  language
 * understand the difference between modularisation mechanisms in
-  object-oriented and functional programming
-* know the module mechanism in at least one concrete language
-* know organisation principles for modules in functional code
+  object-oriented programming and the covered module mechanism
+* know organisation principles for functional code
 
 // end::EN[]
 
