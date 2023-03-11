@@ -54,7 +54,8 @@ include::docs-ext/EXTERNAL_DOCUMENTS_README.adoc[]
 == Maintainers
 
 This repository is currently maintained by
-https://github.com/mikesperber[Mike Sperber].
+https://github.com/mikesperber[Mike Sperber] and
+https://github.com/larsrh[Lars Hupel].
 It was forked from https://github.com/isaqb-org/advanced-template,
 so the contributors of that project basically contributed to this one, too.
 
