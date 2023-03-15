@@ -1,41 +1,30 @@
 === {learning-goals}
 
 // tag::DE[]
-[[LZ-98-1]]
+[[LZ-5-1]]
 
-- Was sollen die Teilnehmer können?
-   * Potential für Parallelisierung und/oder Verteilung erkennen
-   * mögliche algebraische Abstraktionen identifizieren
+==== LZ 5-1: Anwendung funktionaler Architektur
 
-- Was sollen die Teilnehmer verstehen?
-   * die Auswirkung der Verwendung unveränderlicher Daten und reiner
-Funktionen
-
-- Was sollen die Teilnehmer kennen?
-   * die Vorteile gegenüber einer traditionell objektorientierten
-Architektur
+* die Verwendung unveränderlicher Daten und reiner Funktionen
+verstehen
+* die Verwendung von funktionaler Modellierung verstehen
+* die funktionale Makroarchitektur verstehen
+* die Vorteile gegenüber einer traditionell objektorientierten
+Architektur verstehen
+* das Beispiel selbst ändern und weiterentwickeln können
 
 // end::DE[]
 
 
 // tag::EN[]
-[[LG-98-1]]
-- What should the participants be able to do?
-   * Identify potential for parallelization and/or distribution
-   * Identify possible algebraic abstractions
+[[LG-5-1]]
 
-- What should the participants understand?
-   * The effect of using immutable data and pure functions
+==== LG 5-1: Application of functional architecture
 
-- What should the participants know?
-   * The advantages over traditional object-oriented architecture
+* understand the usage of immutable data and pure functions
+* understand the use of functional modeling
+* understand the macro architecture
+* understand the advantages over a traditional object-oriented
+  architecture
+* be able to change and extend the application
 // end::EN[]
-
-
-// tag::REMARK[]
-
-[NOTE]
-====
-KURZE ERKLÄRUNG ZU DEN ZIELEN DIESER LERNEINHEIT
-====
-// end::REMARK[]
