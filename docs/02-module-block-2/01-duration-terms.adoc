@@ -6,7 +6,7 @@
 Funktionale Software-Architektur ist in der Regel verbunden mit der
 Verwendung funktionaler Programmiersprachen und Frameworks. Dieser
 Abschnitt gibt einen Überblick über die wichtigsten Eigenschaften und
-Beschränkungen verfügbarer Technologien, um Architektinnen die
+Beschränkungen verfügbarer Technologien, um Architekt:innen die
 Entscheidung für oder gegen eine Technologie zu ermöglichen.
 
 === Begriffe und Konzepte
