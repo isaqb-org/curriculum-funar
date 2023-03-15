@@ -1,6 +1,6 @@
 // tag::DE[]
 |===
-| Dauer: 120 Min. | Übungszeit: Keine.
+| Dauer: 60 Min. | Übungszeit: Keine.
 |===
 
 Funktionale Software-Architektur ist in der Regel verbunden mit der
@@ -18,7 +18,7 @@ nicht-strikte Auswertung
 
 // tag::EN[]
 |===
-| Lesson duration: 120 min | Exercises: None
+| Lesson duration: 60 min | Exercises: None
 |===
 
 Functional software architecture is usually associated with the use of

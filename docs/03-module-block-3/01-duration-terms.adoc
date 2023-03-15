@@ -1,6 +1,6 @@
 // tag::DE[]
 |===
-| Dauer: 180 Min. | Übungszeit: 60 Min.
+| Dauer: 180 Min. | Übungszeit: 120 Min.
 |===
 
 Dieser Abschnitt behandelt spezifisch funktionale Ansätze zur
@@ -19,7 +19,7 @@ Funktor, DDD, closure of operations
 
 // tag::EN[]
 |===
-| Lesson duration: 180 min | Exercises: 60 min
+| Lesson duration: 180 min | Exercises: 120 min
 |===
 
 This section discusses specifically functional approaches to domain

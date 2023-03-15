@@ -1,6 +1,6 @@
 // tag::DE[]
 |===
-| Dauer: 180 Min. | Übungszeit: 60 Min.
+| Dauer: 180 Min. | Übungszeit: 120 Min.
 |===
 
 Diese Lerneinheit führt in die grundlegenden Elemente der Struktur
@@ -20,7 +20,7 @@ Werte, Funktionen, Komposition, Typen, Module
 
 // tag::EN[]
 |===
-| Lesson duration: 180 min | Exercises: 60 min
+| Lesson duration: 180 min | Exercises: 120 min
 |===
 
 This section introduces the basic elements of the structure of

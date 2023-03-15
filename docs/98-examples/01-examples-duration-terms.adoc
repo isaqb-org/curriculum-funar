@@ -1,6 +1,6 @@
 // tag::DE[]
 |===
-| Dauer: 60 Min. | Übungszeit: keine
+| Dauer: 60 Min. | Übungszeit: 60
 |===
 
 === Begriffe und Konzepte
@@ -15,7 +15,7 @@ seitens iSAQB nicht vorgegeben.
 
 // tag::EN[]
 |===
-| Lesson duration: 60 min | Exercises: none
+| Lesson duration: 60 min | Exercises: 60
 |===
 
 === Terms and concepts

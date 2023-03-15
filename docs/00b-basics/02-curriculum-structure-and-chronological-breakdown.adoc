@@ -20,11 +20,8 @@
 | 4. Funktionale Makro-Architektur
 | 240
 
-| 5. Architekturmuster
-| 240
-
-| 6. Beispiel
-| 60
+| 5. Beispiel
+| 120
 
 |
 |
@@ -47,22 +44,19 @@
 
 
 | 1. Basics of Functional Programming
-| 180
+| 300
 
 | 2. Technologies
-| 120
+| 60
 
 | 3. Functional Modeling
-| 240
+| 300
 
 | 4. Functional Macro Architecture
-| 240
+| 300
 
-| 5. Architectural patterns
-| 240
-
-| 6. Example
-| 60
+| 5. Example
+| 120
 
 |
 |
