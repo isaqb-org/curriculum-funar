@@ -1,6 +1,3 @@
 === {references}
 <<felleisen>>, <<hutton>>, <<sperber>>, <<okasaki>>
 
-
-// tag::REMARK[]
-// end::REMARK[]

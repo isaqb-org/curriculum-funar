@@ -1,5 +1,4 @@
 === {references}
 <<field>>, <<wikipedia>>
 
-// tag::REMARK[]
-// end::REMARK[]
+

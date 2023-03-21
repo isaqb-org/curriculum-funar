@@ -1,5 +1,3 @@
 === {references}
 <<hutton>>, <<chiusano>>, <<betts>>, <<marlow>>
 
-// tag::REMARK[]
-// end::REMARK[]

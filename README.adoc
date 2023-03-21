@@ -45,11 +45,8 @@ You need a Java(tm) Runtime Environment installed on your machine.
 .Creating the PDFs
 The output documents (HTML + PDF) are build with https://gradle.org[gradle].
 You can start a build locally when you run `./gradlew buildDocs` inside the cloned repository folder.
-If you don't modify the configuration, this build will create pdf and html output in German (DE) _and_ English (EN) with and without remarks.
+If you don't modify the configuration, this build will create pdf and html output in German (DE) _and_ English (EN).
 
-
-== Additional translations/languages
-include::docs-ext/EXTERNAL_DOCUMENTS_README.adoc[]
 
 == Maintainers
 
@@ -63,4 +60,4 @@ so the contributors of that project basically contributed to this one, too.
 [[copyrighted]]
 == Licensing and Copyright
 
-include::LICENSE.adoc[]
+include::license-copyright/LICENSE.adoc[]
