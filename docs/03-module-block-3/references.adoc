@@ -1,5 +1,3 @@
 === {references}
 <<gibbons>>, <<wlaschin>>, <<yorgey>>, <<maguire>>
 
-// tag::REMARK[]
-// end::REMARK[]
