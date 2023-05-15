@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 1.5.8">
+<meta name="generator" content="Asciidoctor 2.0.17">
 <title>Curriculum forCertified Professional forSoftware Architecture (CPSA)&#174;Advanced Level: ModuleFUNARFunctional Software Architecture</title>
 <style>
 /* normalize.css v2.1.1 | MIT License | git.io/normalize */
@@ -1897,8 +1897,8 @@ h2 {
 <div id="header">
 <h1>Curriculum for<br><br>Certified Professional for<br>Software Architecture (CPSA)<sup>&#174;</sup><br><em>Advanced Level</em>: <br> Module<br>FUNAR<br><br>Functional Software Architecture</h1>
 <div class="details">
-<span id="revnumber"> 2018.1-EN,</span>
-<span id="revdate">20220530</span>
+<span id="revnumber"> 2023.1-rev0-EN,</span>
+<span id="revdate">20230515</span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
@@ -1920,7 +1920,7 @@ h2 {
 <li><a href="#_supplementary_information_terms_translations">Supplementary Information, Terms, Translations</a></li>
 </ul>
 </li>
-<li><a href="#_system_structure">1. System structure</a>
+<li><a href="#_basics_of_functional_programming">1. Basics of Functional Programming</a>
 <ul class="sectlevel2">
 <li><a href="#_terms_and_concepts">1.1. Terms and concepts</a></li>
 <li><a href="#_learning_goals">1.2. Learning Goals</a></li>
@@ -1934,34 +1934,27 @@ h2 {
 <li><a href="#_references_2">2.3. References</a></li>
 </ul>
 </li>
-<li><a href="#_implementation_of_functional_requirements">3. Implementation of functional requirements</a>
+<li><a href="#_functional_modeling">3. Functional Modeling</a>
 <ul class="sectlevel2">
 <li><a href="#_terms_and_concepts_3">3.1. Terms and concepts</a></li>
 <li><a href="#_learning_goals_3">3.2. Learning Goals</a></li>
 <li><a href="#_references_3">3.3. References</a></li>
 </ul>
 </li>
-<li><a href="#_implementation_of_non_functional_requirements">4. Implementation of non-functional requirements</a>
+<li><a href="#_functional_macro_architecture">4. Functional Macro Architecture</a>
 <ul class="sectlevel2">
 <li><a href="#_terms_and_concepts_4">4.1. Terms and concepts</a></li>
 <li><a href="#_learning_goals_4">4.2. Learning Goals</a></li>
 <li><a href="#_references_4">4.3. References</a></li>
 </ul>
 </li>
-<li><a href="#_architectural_patterns">5. Architectural Patterns</a>
+<li><a href="#_examples">5. Examples</a>
 <ul class="sectlevel2">
 <li><a href="#_terms_and_concepts_5">5.1. Terms and concepts</a></li>
 <li><a href="#_learning_goals_5">5.2. Learning Goals</a></li>
-<li><a href="#_references_5">5.3. References</a></li>
 </ul>
 </li>
-<li><a href="#_examples">6. Examples</a>
-<ul class="sectlevel2">
-<li><a href="#_terms_and_concepts_6">6.1. Terms and concepts</a></li>
-<li><a href="#_learning_goals_6">6.2. Learning Goals</a></li>
-</ul>
-</li>
-<li><a href="#_references_6">References</a></li>
+<li><a href="#_references_5">References</a></li>
 </ul>
 </div>
 </div>
@@ -1971,7 +1964,7 @@ h2 {
 <div style="page-break-after: always;"></div>
 <div class="paragraph">
 <p><strong>&#169; (Copyright), International Software Architecture Qualification Board e. V.
-(iSAQB<sup>&#174;</sup> e. V.) 2021</strong></p>
+(iSAQB<sup>&#174;</sup> e. V.) 2023</strong></p>
 </div>
 <div class="paragraph">
 <p>The curriculum may only be used subject to the following conditions:</p>
@@ -1979,7 +1972,7 @@ h2 {
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>You wish to obtain the CPSA Certified Professional for Software Architecture Advanced Level<sup>&#174;</sup> certificate. For the purpose of obtaining the certificate, it shall be permitted to use these text documents and/or curricula by creating working copies for your own computer. If any other use of documents and/or curricula is intended, for instance for their dissemination to third parties, for advertising etc., please write to <a href="mailto:info@isaqb.org">info@isaqb.org</a> to enquire whether this is permitted. A separate license agreement would then have to be entered into.</p>
+<p>You wish to obtain the CPSA Certified Professional for Software Architecture Foundation Level<sup>&#174;</sup> certificate or the CPSA Certified Professional for Software Architecture Advanced Level<sup>&#174;</sup> certificate. For the purpose of obtaining the certificate, it shall be permitted to use these text documents and/or curricula by creating working copies for your own computer. If any other use of documents and/or curricula is intended, for instance for their dissemination to third parties, for advertising etc., please write to <a href="mailto:info@isaqb.org">info@isaqb.org</a> to enquire whether this is permitted. A separate license agreement would then have to be entered into.</p>
 </li>
 <li>
 <p>If you are a trainer or training provider, it shall be possible for you to use the documents and/or curricula once you have obtained a usage license.
@@ -2066,13 +2059,6 @@ For the purpose of simplicity, iSAQB e. V. shall hereafter be referred to as iSA
 </li>
 <li>
 <p>Training and further education within the scope of iSAQB Advanced Level training courses with a minimum of 70 credit points from at least three different areas of competence</p>
-<div class="ulist">
-<ul>
-<li>
-<p>existing certifications (for example: Sun/Oracle Java architect, Microsoft CSA) can be credited upon application</p>
-</li>
-</ul>
-</div>
 </li>
 <li>
 <p>Successful completion of the CPSA-A certification exam</p>
@@ -2133,28 +2119,24 @@ algebraic abstractions.</p>
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">1. System structure</p></td>
-<td class="tableblock halign-right valign-top"><p class="tableblock">180</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1. Basics of Functional Programming</p></td>
+<td class="tableblock halign-right valign-top"><p class="tableblock">300</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">2. Technologies</p></td>
-<td class="tableblock halign-right valign-top"><p class="tableblock">120</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">3. Implementation of functional requirements</p></td>
-<td class="tableblock halign-right valign-top"><p class="tableblock">240</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">4. Implementation of non-functional requirements</p></td>
-<td class="tableblock halign-right valign-top"><p class="tableblock">240</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">5. Architectural patterns</p></td>
-<td class="tableblock halign-right valign-top"><p class="tableblock">240</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">6. Example</p></td>
 <td class="tableblock halign-right valign-top"><p class="tableblock">60</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3. Functional Modeling</p></td>
+<td class="tableblock halign-right valign-top"><p class="tableblock">300</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4. Functional Macro Architecture</p></td>
+<td class="tableblock halign-right valign-top"><p class="tableblock">300</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">5. Example</p></td>
+<td class="tableblock halign-right valign-top"><p class="tableblock">120</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"></td>
@@ -2257,7 +2239,7 @@ In particular, the curriculum provides no specifications on the nature of the ex
 </div>
 </div>
 <div class="sect1">
-<h2 id="_system_structure">1. System structure</h2>
+<h2 id="_basics_of_functional_programming">1. Basics of Functional Programming</h2>
 <div class="sectionbody">
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -2267,7 +2249,7 @@ In particular, the curriculum provides no specifications on the nature of the ex
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Lesson duration: 180 min</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Exercises: 60 min</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Exercises: 120 min</p></td>
 </tr>
 </tbody>
 </table>
@@ -2284,63 +2266,100 @@ object-oriented programming where they are bundled with classes.</p>
 <div class="sect2">
 <h3 id="_terms_and_concepts">1.1. Terms and concepts</h3>
 <div class="paragraph">
-<p>Functions and values, Composition, Types, Modules</p>
+<p>Values, Functions, Composition, Types, Modules</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_learning_goals">1.2. Learning Goals</h3>
-<div id="LG-1-1" class="ulist">
-<ul>
-<li>
-<p>What should the participants be able to do?</p>
+<div class="sect3">
+<h4 id="LG-1-1">LG 1-1: Data</h4>
 <div class="ulist">
 <ul>
 <li>
-<p>Represent information as immutable values</p>
+<p>understand the role of systematic data analysis in domain modeling</p>
 </li>
 <li>
-<p>Formulate central functionality as functions</p>
+<p>be able to represent information as data systematically</p>
 </li>
 <li>
-<p>Construct types for these functions</p>
+<p>understand the difference between compound and mixed data</p>
+</li>
+<li>
+<p>understand the role of self-references in data representation</p>
+</li>
+<li>
+<p>be able to find and use self-refencences during data analysis</p>
+</li>
+<li>
+<p>understand the difference between objects and values</p>
+</li>
+<li>
+<p>understand the difference between functional and object-oriented
+data structures</p>
 </li>
 </ul>
 </div>
-</li>
-<li>
-<p>What should the participants understand?</p>
+</div>
+<div class="sect3">
+<h4 id="LG-1-2">LG 1-2: Functions</h4>
 <div class="ulist">
 <ul>
 <li>
-<p>The difference between the object-oriented and the functional software
-model</p>
+<p>be able to design functions systematically to requirements</p>
 </li>
 <li>
-<p>The role of types in functional software design</p>
+<p>understand the difference between pure functions and state-mutating
+procedures viz. object-oriented methods</p>
 </li>
 <li>
-<p>Modules as an alternative to classes</p>
+<p>be able to apply abstraction systematically</p>
+</li>
+<li>
+<p>be able to compose functions via abstractions</p>
 </li>
 </ul>
 </div>
-</li>
-<li>
-<p>What should the participants know?</p>
+</div>
+<div class="sect3">
+<h4 id="LG-1-3">LG 1-3: Types</h4>
 <div class="ulist">
 <ul>
 <li>
-<p>Examples of functional system architectures</p>
+<p>understand the role of types in data analysis</p>
+</li>
+<li>
+<p>be able to use types to design functions systematically</p>
+</li>
+<li>
+<p>be able to derive data representations from data analysis in both
+statically and dynamically typed languages</p>
 </li>
 </ul>
 </div>
+</div>
+<div class="sect3">
+<h4 id="LG-1-4">LG 1-4: Modularisation mechanisms</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>know the module mechanism in at least one concrete functional
+language</p>
+</li>
+<li>
+<p>understand the difference between modularisation mechanisms in
+object-oriented programming and the covered module mechanism</p>
+</li>
+<li>
+<p>know organisation principles for functional code</p>
 </li>
 </ul>
+</div>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_references">1.3. References</h3>
 <div class="paragraph">
-<p><a href="#brown">[Brown 2018]</a>, <a href="#felleisen">[Felleisen+ 2014]</a>, <a href="#hutton">[Hutton 2016]</a>, <a href="#sperber">[Sperber+ 2020]</a></p>
+<p><a href="#felleisen">[Felleisen+ 2014]</a>, <a href="#hutton">[Hutton 2016]</a>, <a href="#sperber">[Sperber+ 2020]</a>, <a href="#okasaki">[Okasaki 1999]</a></p>
 </div>
 <div style="page-break-after: always;"></div>
 </div>
@@ -2356,7 +2375,7 @@ model</p>
 </colgroup>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Lesson duration: 120 min</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Lesson duration: 60 min</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Exercises: None</p></td>
 </tr>
 </tbody>
@@ -2370,61 +2389,43 @@ technologies to enable architects to decide for or against a technology.</p>
 <div class="sect2">
 <h3 id="_terms_and_concepts_2">2.1. Terms and concepts</h3>
 <div class="paragraph">
-<p>static types, dynamic types, tail recursion, strict or non-strict evaluation, runtime environment.</p>
+<p>static type system, dynamic type system, tail recursion, lazy evaluation</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_learning_goals_2">2.2. Learning Goals</h3>
-<div id="LG-2-1" class="ulist">
-<ul>
-<li>
-<p>What should the participants be able to do?</p>
+<div class="sect3">
+<h4 id="LG-2-1">LG 2-1: Properties of functional languages</h4>
 <div class="ulist">
 <ul>
 <li>
-<p>Select a suitable programming language for a project</p>
+<p>understand the consequences of using static and dynamic type systems, respectively</p>
 </li>
 <li>
-<p>Select suitable frameworks and libraries</p>
+<p>understand the difference between strict and lazy evaluation</p>
+</li>
+<li>
+<p>understand the relevance of proper tail recursion</p>
 </li>
 </ul>
 </div>
-</li>
-<li>
-<p>What should the participants understand?</p>
+</div>
+<div class="sect3">
+<h4 id="LG-2-2">LG 2-2: Choice of functional language</h4>
 <div class="ulist">
 <ul>
 <li>
-<p>The effect of the use of strict or non-strict evaluation on software
-architecture</p>
+<p>know important functional languages and their main characteristics</p>
 </li>
 <li>
-<p>The effect of using static or dynamic types</p>
+<p>know the relationship between languages, their characteristics and
+the underlying run-time environment</p>
 </li>
 <li>
-<p>The importance of tail recursion as a distinguishing feature</p>
+<p>be able to choose an appropriate language for a project</p>
 </li>
 </ul>
 </div>
-</li>
-<li>
-<p>What should the participants know?</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Important functional languages and their main characteristics</p>
-</li>
-<li>
-<p>Exemplary frameworks and libraries</p>
-</li>
-<li>
-<p>The assignment of programming languages or their properties to
-different runtime environments</p>
-</li>
-</ul>
-</div>
-</li>
-</ul>
 </div>
 </div>
 <div class="sect2">
@@ -2437,7 +2438,7 @@ different runtime environments</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_implementation_of_functional_requirements">3. Implementation of functional requirements</h2>
+<h2 id="_functional_modeling">3. Functional Modeling</h2>
 <div class="sectionbody">
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -2447,90 +2448,98 @@ different runtime environments</p>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Lesson duration: 180 min</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Exercises: 60 min</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Exercises: 120 min</p></td>
 </tr>
 </tbody>
 </table>
 <div class="paragraph">
-<p>This section discusses inherently functional approaches to translating
-functional requirements into software architecture. Domain-driven design
-can be implemented with functional programming instead of
-object-oriented programming. Combinator models reveal hidden domain
-knowledge. Embedded domain-specific languages allow fast alignment of
-requirements and architecture.</p>
+<p>This section discusses specifically functional approaches to domain
+modeling.  Combinator models are the most important aspect, which are
+particularly flexible and long-lived.  Another theme is algebraic
+structure in domain modeling, which can reveal aspects of the domain
+that would remain hidden without algebra.  Finally, the section
+discusses the relationship between tactical Domain-Driven Design and
+functional modeling.</p>
 </div>
 <div class="sect2">
 <h3 id="_terms_and_concepts_3">3.1. Terms and concepts</h3>
 <div class="paragraph">
-<p>functional requirements, DDD, combinator models, embedded domain-specific languages.</p>
+<p>combinator models, algebra, semigroup, monoid, functor, applicative
+functor, DDD, closure of operations</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_learning_goals_3">3.2. Learning Goals</h3>
-<div id="LG-3-1" class="ulist">
-<ul>
-<li>
-<p>What should the participants be able to do?</p>
+<div class="sect3">
+<h4 id="LG-3-1">LG 3-1: Combinator Models</h4>
 <div class="ulist">
 <ul>
 <li>
-<p>Implement DDD with the aid of functional building blocks</p>
+<p>understand the structure of combinator models with self-references,
+i.e. models with constructors that build objects of a type T from
+other objects of type T</p>
 </li>
 <li>
-<p>Formulate rudimentary combinator models</p>
+<p>understand the advantages of combinator models over "plain" models</p>
 </li>
 <li>
-<p>Design small domain-specific languages</p>
+<p>be able to discover combinators in domain models</p>
+</li>
+<li>
+<p>be able to construct combinator models</p>
 </li>
 </ul>
 </div>
-</li>
-<li>
-<p>What should the participants understand?</p>
+</div>
+<div class="sect3">
+<h4 id="LG-3-2">LG 3-2: Algebraic Structures</h4>
 <div class="ulist">
 <ul>
 <li>
-<p>The implementation of DDD entities with functional programming</p>
+<p>understand the nature and value of algebraic structures in domain
+modeling</p>
 </li>
 <li>
-<p>The specific properties of combinator models</p>
+<p>know the concepts semigroup, monoid, functor, and applicative
+functor</p>
 </li>
 <li>
-<p>The role of domain-specific languages in development</p>
+<p>be able to identify semigroups and monoids in combinator models</p>
 </li>
 </ul>
 </div>
-</li>
-<li>
-<p>What should the participants know?</p>
+</div>
+<div class="sect3">
+<h4 id="LG-3-3">LG 3-3: Domain-Driven Design</h4>
 <div class="ulist">
 <ul>
 <li>
-<p>Examples of combinator models</p>
+<p>understand the differences and similarities between the DDD and the
+functional approaches to domain modeling</p>
 </li>
 <li>
-<p>The specific advantages of combinator models</p>
+<p>understand the relationship between combinator models and the
+concept of "closure of operations" in DDD</p>
 </li>
 <li>
-<p>Examples of embedded domain-specific languages</p>
+<p>be able to construct parts of DDD architecture using functional
+programming</p>
 </li>
 </ul>
 </div>
-</li>
-</ul>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_references_3">3.3. References</h3>
 <div class="paragraph">
-<p><a href="#gibbons">[Gibbons+ 2003]</a>, <a href="#wlaschin">[Wlaschin 2018]</a></p>
+<p><a href="#gibbons">[Gibbons+ 2003]</a>, <a href="#wlaschin">[Wlaschin 2018]</a>, <a href="#yorgey">[Yorgey 2012]</a>, <a href="#maguire">[Maguire 2021]</a></p>
 </div>
 <div style="page-break-after: always;"></div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_implementation_of_non_functional_requirements">4. Implementation of non-functional requirements</h2>
+<h2 id="_functional_macro_architecture">4. Functional Macro Architecture</h2>
 <div class="sectionbody">
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -2540,95 +2549,89 @@ requirements and architecture.</p>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Lesson duration: 180 min</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Exercises: 60 min</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Exercises: 120 min</p></td>
 </tr>
 </tbody>
 </table>
 <div class="paragraph">
-<p>This section covers specific functional techniques for implementing
-non-functional requirements such as data management, distribution and
-performance.</p>
+<p>This section is about specifically functional concepts for macro
+architecture.  Specifically, it convers the organisation of a system
+into workflows and functional frontend architecture.</p>
 </div>
 <div class="sect2">
 <h3 id="_terms_and_concepts_4">4.1. Terms and concepts</h3>
 <div class="paragraph">
-<p>CQRS, event sourcing, parallelization, distribution</p>
+<p>monads, dependency injection, Model View Update, events</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_learning_goals_4">4.2. Learning Goals</h3>
-<div id="LG-4-1" class="ulist">
-<ul>
-<li>
-<p>What should the participants be able to do?</p>
+<div class="sect3">
+<h4 id="LG-4-1">LG 4-1: Monads</h4>
 <div class="ulist">
 <ul>
 <li>
-<p>Design the data management for a specific project with event sourcing</p>
+<p>understand how monads express sequential processes with data
+dependencies</p>
 </li>
 <li>
-<p>Design a query model to match an event sourcing model and user
-interface requirement</p>
+<p>know several concrete examples of monads in common abstractions</p>
 </li>
 <li>
-<p>Select techniques for effective parallelization</p>
+<p>understand how monads abstract over control flow</p>
 </li>
 <li>
-<p>Select techniques for effective distribution</p>
+<p>be able to use monads to model domain processes</p>
+</li>
+<li>
+<p>be able to use monads for dependency injection</p>
 </li>
 </ul>
 </div>
-</li>
-<li>
-<p>What should the participants understand?</p>
+</div>
+<div class="sect3">
+<h4 id="LG-4-2">LG 4-2: Events</h4>
 <div class="ulist">
 <ul>
 <li>
-<p>The difference between "data warehousing" and event sourcing
-approaches</p>
+<p>understand how events fit into the architecture design process</p>
 </li>
 <li>
-<p>The role of query models</p>
-</li>
-<li>
-<p>The role of functional data structures in parallelization</p>
-</li>
-<li>
-<p>The role of functional data management in distribution</p>
+<p>understand how functional programming can express event-based
+architecture</p>
 </li>
 </ul>
 </div>
-</li>
-<li>
-<p>What should the participants know?</p>
+</div>
+<div class="sect3">
+<h4 id="LG-4-3">LG 4-3: Model View Update</h4>
 <div class="ulist">
 <ul>
 <li>
-<p>Data parallelism</p>
+<p>understand the basic structure of the Model View Update pattern</p>
 </li>
 <li>
-<p>Futures</p>
+<p>understand the difference between Model View Update and
+object-oriented Model View patterns</p>
 </li>
 <li>
-<p>Message passing</p>
+<p>be able to develop a simple application frontend based on Model View Update</p>
 </li>
 </ul>
 </div>
-</li>
-</ul>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_references_4">4.3. References</h3>
 <div class="paragraph">
-<p><a href="#betts">[Betts+ 2013]</a>, <a href="#cesarini">[Cesarini+ 2016]</a>, <a href="#marlow">[Marlow 2013]</a>, <a href="#reppy">[Reppy 2008]</a></p>
+<p><a href="#hutton">[Hutton 2016]</a>, <a href="#chiusano">[Chiusano+ 2014]</a>, <a href="#betts">[Betts+ 2013]</a>, <a href="#marlow">[Marlow 2013]</a></p>
 </div>
 <div style="page-break-after: always;"></div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_architectural_patterns">5. Architectural Patterns</h2>
+<h2 id="_examples">5. Examples</h2>
 <div class="sectionbody">
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -2637,108 +2640,16 @@ approaches</p>
 </colgroup>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Lesson duration: 180 min</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Exercises: 60 min</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Lesson duration: 60 min</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Exercises: 60</p></td>
 </tr>
 </tbody>
 </table>
-<div class="paragraph">
-<p>Functional software architecture has specific architectural patterns.
-These include the use of high-performance functional data structures,
-the use of algebraic abstractions and UI development with the
-Model-View-Update Pattern as an alternative to Model-View-Controller.</p>
-</div>
 <div class="sect2">
 <h3 id="_terms_and_concepts_5">5.1. Terms and concepts</h3>
 <div class="paragraph">
-<p>functional data structure, monoid, functor, monad, Model-View-Update.</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_learning_goals_5">5.2. Learning Goals</h3>
-<div id="LG-5-1" class="ulist">
-<ul>
-<li>
-<p>What should the participants be able to do?</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Utilize the possibilities of functional data structures for the
-software architecture</p>
-</li>
-<li>
-<p>Recognize algebraic properties in domain objects</p>
-</li>
-<li>
-<p>Reflect algebraic properties in the code</p>
-</li>
-<li>
-<p>Design UI architecture with Model-View-Update</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>What should the participants understand?</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Trade-offs with the use of functional data structures</p>
-</li>
-<li>
-<p>Properties of algebraic abstractions</p>
-</li>
-<li>
-<p>Difference between Model-View-Update and Model-View-Controller</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>What should the participants know?</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Examples of functional data structures (hash tries, finger trees,
-red-black trees)</p>
-</li>
-<li>
-<p>Properties of algebraic abstractions</p>
-</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_references_5">5.3. References</h3>
-<div class="paragraph">
-<p><a href="#okasaki">[Okasaki 1999]</a>, <a href="#chiusano">[Chiusano+ 2014]</a></p>
-</div>
-<div style="page-break-after: always;"></div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_examples">6. Examples</h2>
-<div class="sectionbody">
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 50%;">
-<col style="width: 50%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Lesson duration: XXX min</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Exercises: XXX min</p></td>
-</tr>
-</tbody>
-</table>
-<div class="sect2">
-<h3 id="_terms_and_concepts_6">6.1. Terms and concepts</h3>
-<div class="paragraph">
-<p>In every licensed training session, at least one example for FUNAR must be presented.</p>
+<p>In every licensed training session, at least one example for
+functional architecture must be presented.</p>
 </div>
 <div class="paragraph">
 <p>Type and structure of the examples presented may depend on the training and participants' interests.
@@ -2746,41 +2657,26 @@ The are not prescribed by iSAQB.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_learning_goals_6">6.2. Learning Goals</h3>
-<div id="LG-98-1" class="ulist">
-<ul>
-<li>
-<p>What should the participants be able to do?</p>
+<h3 id="_learning_goals_5">5.2. Learning Goals</h3>
+<div class="sect3">
+<h4 id="LG-5-1">LG 5-1: Application of functional architecture</h4>
 <div class="ulist">
 <ul>
 <li>
-<p>Identify potential for parallelization and/or distribution</p>
+<p>understand the usage of immutable data and pure functions</p>
 </li>
 <li>
-<p>Identify possible algebraic abstractions</p>
-</li>
-</ul>
-</div>
+<p>understand the use of functional modeling</p>
 </li>
 <li>
-<p>What should the participants understand?</p>
-<div class="ulist">
-<ul>
-<li>
-<p>The effect of using immutable data and pure functions</p>
-</li>
-</ul>
-</div>
+<p>understand the macro architecture</p>
 </li>
 <li>
-<p>What should the participants know?</p>
-<div class="ulist">
-<ul>
-<li>
-<p>The advantages over traditional object-oriented architecture</p>
+<p>understand the advantages over a traditional object-oriented
+architecture</p>
 </li>
-</ul>
-</div>
+<li>
+<p>be able to change and extend the application</p>
 </li>
 </ul>
 </div>
@@ -2788,8 +2684,9 @@ The are not prescribed by iSAQB.</p>
 </div>
 </div>
 </div>
+</div>
 <div class="sect1">
-<h2 id="_references_6">References</h2>
+<h2 id="_references_5">References</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>This section contains references that are cited in the curriculum.</p>
@@ -2800,10 +2697,7 @@ The are not prescribed by iSAQB.</p>
 <div class="ulist bibliography">
 <ul class="bibliography">
 <li>
-<p><a id="betts"></a>[Betts+ 2013] Betts et al.: Exploring CQRS and Event Sourcing. Microsoft, 2013.</p>
-</li>
-<li>
-<p><a id="brown"></a>[Brown 2018] Simon Brown: Software Architecture for Developers: Volume 1 -
+<p><a id="betts"></a>[Betts+ 2013] Betts et al.: Exploring CQRS and Event Sourcing. Microsoft, 2013.
 Technical leadership and the balance with agility. Leanpub, 2018.</p>
 </li>
 </ul>
@@ -2813,10 +2707,6 @@ Technical leadership and the balance with agility. Leanpub, 2018.</p>
 </div>
 <div class="ulist bibliography">
 <ul class="bibliography">
-<li>
-<p><a id="cesarini"></a>[Cesarini+ 2016] Francesco Cesarini, Steve Vinoski: Designing for Scalability with
-Erlang/OTP: Implement Robust, Fault-Tolerant Systems. O’Reilly, 2016.</p>
-</li>
 <li>
 <p><a id="chiusano"></a>[Chiusano+ 2014] Paul Chiusano, Runar Bjarnason: Functional Programming in Scala.
 September, 2014.</p>
@@ -2865,6 +2755,16 @@ Auflage, 2016.</p>
 <div class="ulist bibliography">
 <ul class="bibliography">
 <li>
+<p><a id="maguire"></a>[Maguire 2021] Sandy Maguire: Algebra-Driven Design. Leanpub, 2021.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>M</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
+<li>
 <p><a id="marlow"></a>[Marlow 2013] Simon Marlow: Parallel and Concurrent Programming in Haskell:
 Techniques for Multicore and Multithreaded Programming. O’Reilly, 2013.</p>
 </li>
@@ -2878,17 +2778,6 @@ Techniques for Multicore and Multithreaded Programming. O’Reilly, 2013.</p>
 <li>
 <p><a id="okasaki"></a>[Okasaki 1999] Chris Okasaki: Purely functional data structures. Cambridge University
 Press, 1999.</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p><strong>R</strong></p>
-</div>
-<div class="ulist bibliography">
-<ul class="bibliography">
-<li>
-<p><a id="reppy"></a>[Reppy 2008] John H. Reppy: Concurrent Programming in ML. Cambridge University
-University Press, 2008.</p>
 </li>
 </ul>
 </div>
@@ -2918,6 +2807,18 @@ Bookshelf, 2018.</p>
 </li>
 </ul>
 </div>
+<div class="paragraph">
+<p><strong>Y</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
+<li>
+<p><a id="yorgey"></a>[Yorgey 2012] Brent A. Yorgey, Monoids: Theme and
+Variations. Proceedings of the 2012 Haskell Symposium, September
+2012 <a href="https://doi.org/10.1145/2364506.2364520" class="bare">https://doi.org/10.1145/2364506.2364520</a></p>
+</li>
+</ul>
+</div>
 </div>
 </div>
 </div>
@@ -2932,8 +2833,8 @@ Bookshelf, 2018.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
- 2018.1-EN<br>
-Last updated 2022-05-30 09:56:57 UTC
+ 2023.1-rev0-EN<br>
+Last updated 2023-05-15 11:18:00 UTC
 </div>
 </div>
 </body>
