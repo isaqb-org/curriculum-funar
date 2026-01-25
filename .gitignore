@@ -6,7 +6,6 @@ build
 advanced-template.iml
 .settings/org.eclipse.buildship.core.prefs
 .project
-learning-objectives.adoc
 gradle/wrapper/gradle-wrapper.properties
 gradle/wrapper/gradle-wrapper.jar
 gradlew

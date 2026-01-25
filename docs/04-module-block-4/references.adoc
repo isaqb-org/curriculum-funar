@@ -1,3 +1,8 @@
 === {references}
 <<hutton>>, <<chiusano>>, <<betts>>, <<marlow>>
 
+// tag::DE[]
+// end::DE[]
+
+// tag::EN[]
+// end::EN[]

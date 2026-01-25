@@ -1,6 +1,14 @@
 ext {
     curriculumFileName = "curriculum-funar"
     languages = ["DE", "EN"]
+
+    // you can define several additional tags that will each be used to create a separate resulting
+    // html and pdf file. The following example will build files without the REMARKS suffix (regular files)
+    // and those with the REMARKS-suffix. It will then also render content which is enclosed in
+    // ifeval::["{suffix}" == "REMARKS"] .... endif::[]
+    //
+    // suffixTags = ["REMARKS"]
+    suffixTags = [""]
 }
 
 defaultTasks 'buildDocs'
